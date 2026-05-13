@@ -30,7 +30,7 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 
 ---
 
-# Featured Projects
+# 🚀 Featured Projects
 
 ## 🎟️ Eventra
 World-class event management & ticket booking platform with OTP verification, dashboards, event hosting, secure booking system, and modern UI.
