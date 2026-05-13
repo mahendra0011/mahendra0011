@@ -32,9 +32,6 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 
 ---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=mahendra0011&show_icons=true&locale=en" alt="mahendra0011" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mahendra0011&" alt="mahendra0011" /></p>
  🚀 Featured Projects
 
 ---
