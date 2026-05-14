@@ -18,7 +18,7 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 ---
 [![](https://komarev.com/ghpvc/?username=mahendra0011&icon=0&color=0)](https://visitcount.itsvg.in)
 
-
+---
 
 # 📊 GitHub Status
 
@@ -49,9 +49,7 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 </p>
 
 ---
-https://github-readme-stats.vercel.app/api?username=mahendra0011&show_icons=true&count_private=true&include_all_commits=true
 
----
 # 🚀 Featured Projects
 
 ## 🎟️ Eventra
