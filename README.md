@@ -17,17 +17,6 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 
 
 
----
-
-
-## 📈 Contribution Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mahendra0011&theme=tokyo-night&hide_border=true" width="100%"/>
-</p>
-
----
-
 # 🚀 Featured Projects
 
 ## 🎟️ Eventra
