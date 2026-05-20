@@ -6,9 +6,7 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 
 
 
-# 💻 Tech Stack:
-<h3 align="left">Languages & Tools</h3>
-
+# 💻 Languages & Tools:
 <p align="left">
 
 <img src="https://skillicons.dev/icons?i=html" width="45" height="45" alt="HTML"/>
@@ -39,8 +37,6 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 
 </p>
 
-
-</p>
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.shion.dev/api?username=mahendra0011&theme=default&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://streak-stats.demolab.com/?user=mahendra0011&theme=default&hide_border=false)<br/>
