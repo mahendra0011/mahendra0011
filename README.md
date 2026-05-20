@@ -7,111 +7,141 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 
 
 # 💻 Tech Stack:
-<h3 align="left">Languages and Tools:</h3>
+<h3 align="left">Languages & Tools</h3>
 
-<p align="left">
+<div align="left" style="display:flex; flex-wrap:wrap; gap:18px;">
 
-<a href="https://react.dev/" target="_blank" rel="noreferrer">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=html" width="45" height="45"/>
+    <br>HTML
+  </div>
 
-<a href="https://nextjs.org/" target="_blank" rel="noreferrer">
-  <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=css" width="45" height="45"/>
+    <br>CSS
+  </div>
 
-<a href="https://nodejs.org" target="_blank" rel="noreferrer">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=tailwind" width="45" height="45"/>
+    <br>Tailwind
+  </div>
 
-<a href="https://expressjs.com" target="_blank" rel="noreferrer">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=react" width="45" height="45"/>
+    <br>React
+  </div>
 
-<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://www.radix-ui.com/favicon-32x32.png" width="45" height="45"/>
+    <br>Radix UI
+  </div>
 
-<a href="https://supabase.com/" target="_blank" rel="noreferrer">
-  <img src="https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg" alt="supabase" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=materialui" width="45" height="45"/>
+    <br>Material UI
+  </div>
 
-<a href="https://redis.io" target="_blank" rel="noreferrer">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="45" height="45"/>
+    <br>shadcn/ui
+  </div>
 
-<a href="https://redux.js.org" target="_blank" rel="noreferrer">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://reactbits.dev/favicon.ico" width="45" height="45"/>
+    <br>ReactBits
+  </div>
 
-<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
-  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=nodejs" width="45" height="45"/>
+    <br>Node.js
+  </div>
 
-<a href="https://mui.com/" target="_blank" rel="noreferrer">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg" alt="materialui" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=express" width="45" height="45"/>
+    <br>Express
+  </div>
 
-<a href="https://ui.shadcn.com/" target="_blank" rel="noreferrer">
-  <img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" alt="shadcnui" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=mongodb" width="45" height="45"/>
+    <br>MongoDB
+  </div>
 
-<a href="https://www.radix-ui.com/" target="_blank" rel="noreferrer">
-  <img src="https://avatars.githubusercontent.com/u/75042455?s=200&v=4" alt="radixui" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://socket.io/images/logo.svg" width="45" height="45"/>
+    <br>Socket.IO
+  </div>
 
-<a href="https://reactbits.dev/" target="_blank" rel="noreferrer">
-  <img src="https://reactbits.dev/favicon.ico" alt="reactbits" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=firebase" width="45" height="45"/>
+    <br>Firebase
+  </div>
 
-<a href="https://socket.io/" target="_blank" rel="noreferrer">
-  <img src="https://cdn.worldvectorlogo.com/logos/socket-io.svg" alt="socketio" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg" width="45" height="45"/>
+    <br>Supabase
+  </div>
 
-<a href="https://firebase.google.com/" target="_blank" rel="noreferrer">
-  <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" width="45" height="45"/>
+    <br>Excel
+  </div>
 
-<a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=git" width="45" height="45"/>
+    <br>Git
+  </div>
 
-<a href="https://www.docker.com/" target="_blank" rel="noreferrer">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=github" width="45" height="45"/>
+    <br>GitHub
+  </div>
 
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="45" height="45"/>
+    <br>Postman
+  </div>
 
-<a href="https://postman.com" target="_blank" rel="noreferrer">
-  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=cpp" width="45" height="45"/>
+    <br>C++
+  </div>
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=python" width="45" height="45"/>
+    <br>Python
+  </div>
 
-<a href="https://www.python.org" target="_blank" rel="noreferrer">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=redis" width="45" height="45"/>
+    <br>Redis
+  </div>
 
-<a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=mysql" width="45" height="45"/>
+    <br>SQL
+  </div>
 
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://cdn.worldvectorlogo.com/logos/cloudinary-2.svg" width="45" height="45"/>
+    <br>Cloudinary
+  </div>
 
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://cdn.worldvectorlogo.com/logos/brave-1.svg" width="45" height="45"/>
+    <br>Brave
+  </div>
 
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
-</a>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=docker" width="45" height="45"/>
+    <br>Docker
+  </div>
 
-</p>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=aws" width="45" height="45"/>
+    <br>AWS
+  </div>
+
+</div>
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.shion.dev/api?username=mahendra0011&theme=default&hide_border=false&include_all_commits=false&count_private=false)<br/>
