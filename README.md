@@ -14,8 +14,9 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 <img src="https://skillicons.dev/icons?i=html" width="45" height="45" alt="HTML"/>
 <img src="https://skillicons.dev/icons?i=css" width="45" height="45" alt="CSS"/>
 <img src="https://skillicons.dev/icons?i=tailwind" width="45" height="45" alt="TailwindCSS"/>
+<img src="https://skillicons.dev/icons?i=javascript" width="45" height="45" alt="JavaScript"/>
 <img src="https://skillicons.dev/icons?i=react" width="45" height="45" alt="React"/>
-<img src="https://www.radix-ui.com/favicon-32x32.png" width="45" height="45" alt="Radix UI"/>
+<img src="https://raw.githubusercontent.com/radix-ui/icons/master/packages/radix-icons/logo.svg" width="45" height="45" alt="Radix UI"/>
 <img src="https://skillicons.dev/icons?i=materialui" width="45" height="45" alt="Material UI"/>
 <img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="45" height="45" alt="shadcn/ui"/>
 <img src="https://reactbits.dev/favicon.ico" width="45" height="45" alt="ReactBits"/>
@@ -34,9 +35,11 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 <img src="https://skillicons.dev/icons?i=redis" width="45" height="45" alt="Redis"/>
 <img src="https://skillicons.dev/icons?i=mysql" width="45" height="45" alt="SQL"/>
 <img src="https://cdn.worldvectorlogo.com/logos/cloudinary-2.svg" width="45" height="45" alt="Cloudinary"/>
-<img src="https://cdn.worldvectorlogo.com/logos/brave-1.svg" width="45" height="45" alt="Brave"/>
 <img src="https://skillicons.dev/icons?i=docker" width="45" height="45" alt="Docker"/>
 <img src="https://skillicons.dev/icons?i=aws" width="45" height="45" alt="AWS"/>
+
+</p>
+
 
 </p>
 # 📊 GitHub Stats:
