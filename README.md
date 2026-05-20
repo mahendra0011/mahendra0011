@@ -16,7 +16,6 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 <img src="https://skillicons.dev/icons?i=tailwind" width="45" height="45" alt="TailwindCSS"/>
 <img src="https://skillicons.dev/icons?i=javascript" width="45" height="45" alt="JavaScript"/>
 <img src="https://skillicons.dev/icons?i=react" width="45" height="45" alt="React"/>
-<img src="https://raw.githubusercontent.com/radix-ui/icons/master/packages/radix-icons/logo.svg" width="45" height="45" alt="Radix UI"/>
 <img src="https://skillicons.dev/icons?i=materialui" width="45" height="45" alt="Material UI"/>
 <img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="45" height="45" alt="shadcn/ui"/>
 <img src="https://reactbits.dev/favicon.ico" width="45" height="45" alt="ReactBits"/>
