@@ -9,140 +9,36 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 # 💻 Tech Stack:
 <h3 align="left">Languages & Tools</h3>
 
-<div align="left" style="display:flex; flex-wrap:wrap; gap:18px;">
+<p align="left">
 
-  <div align="center">
-    <img src="https://skillicons.dev/icons?i=html" width="45" height="45"/>
-    <br>HTML
-  </div>
+<img src="https://skillicons.dev/icons?i=html" width="45" height="45" alt="HTML"/>
+<img src="https://skillicons.dev/icons?i=css" width="45" height="45" alt="CSS"/>
+<img src="https://skillicons.dev/icons?i=tailwind" width="45" height="45" alt="TailwindCSS"/>
+<img src="https://skillicons.dev/icons?i=react" width="45" height="45" alt="React"/>
+<img src="https://www.radix-ui.com/favicon-32x32.png" width="45" height="45" alt="Radix UI"/>
+<img src="https://skillicons.dev/icons?i=materialui" width="45" height="45" alt="Material UI"/>
+<img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="45" height="45" alt="shadcn/ui"/>
+<img src="https://reactbits.dev/favicon.ico" width="45" height="45" alt="ReactBits"/>
+<img src="https://skillicons.dev/icons?i=nodejs" width="45" height="45" alt="Node.js"/>
+<img src="https://skillicons.dev/icons?i=express" width="45" height="45" alt="Express"/>
+<img src="https://skillicons.dev/icons?i=mongodb" width="45" height="45" alt="MongoDB"/>
+<img src="https://socket.io/images/logo.svg" width="45" height="45" alt="Socket.IO"/>
+<img src="https://skillicons.dev/icons?i=firebase" width="45" height="45" alt="Firebase"/>
+<img src="https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg" width="45" height="45" alt="Supabase"/>
+<img src="https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" width="45" height="45" alt="Excel"/>
+<img src="https://skillicons.dev/icons?i=git" width="45" height="45" alt="Git"/>
+<img src="https://skillicons.dev/icons?i=github" width="45" height="45" alt="GitHub"/>
+<img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="45" height="45" alt="Postman"/>
+<img src="https://skillicons.dev/icons?i=cpp" width="45" height="45" alt="C++"/>
+<img src="https://skillicons.dev/icons?i=python" width="45" height="45" alt="Python"/>
+<img src="https://skillicons.dev/icons?i=redis" width="45" height="45" alt="Redis"/>
+<img src="https://skillicons.dev/icons?i=mysql" width="45" height="45" alt="SQL"/>
+<img src="https://cdn.worldvectorlogo.com/logos/cloudinary-2.svg" width="45" height="45" alt="Cloudinary"/>
+<img src="https://cdn.worldvectorlogo.com/logos/brave-1.svg" width="45" height="45" alt="Brave"/>
+<img src="https://skillicons.dev/icons?i=docker" width="45" height="45" alt="Docker"/>
+<img src="https://skillicons.dev/icons?i=aws" width="45" height="45" alt="AWS"/>
 
-  <div align="center">
-    <img src="https://skillicons.dev/icons?i=css" width="45" height="45"/>
-    <br>CSS
-  </div>
-
-  <div align="center">
-    <img src="https://skillicons.dev/icons?i=tailwind" width="45" height="45"/>
-    <br>Tailwind
-  </div>
-
-  <div align="center">
-    <img src="https://skillicons.dev/icons?i=react" width="45" height="45"/>
-    <br>React
-  </div>
-
-  <div align="center">
-    <img src="https://www.radix-ui.com/favicon-32x32.png" width="45" height="45"/>
-    <br>Radix UI
-  </div>
-
-  <div align="center">
-    <img src="https://skillicons.dev/icons?i=materialui" width="45" height="45"/>
-    <br>Material UI
-  </div>
-
-  <div align="center">
-    <img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="45" height="45"/>
-    <br>shadcn/ui
-  </div>
-
-  <div align="center">
-    <img src="https://reactbits.dev/favicon.ico" width="45" height="45"/>
-    <br>ReactBits
-  </div>
-
-  <div align="center">
-    <img src="https://skillicons.dev/icons?i=nodejs" width="45" height="45"/>
-    <br>Node.js
-  </div>
-
-  <div align="center">
-    <img src="https://skillicons.dev/icons?i=express" width="45" height="45"/>
-    <br>Express
-  </div>
-
-  <div align="center">
-    <img src="https://skillicons.dev/icons?i=mongodb" width="45" height="45"/>
-    <br>MongoDB
-  </div>
-
-  <div align="center">
-    <img src="https://socket.io/images/logo.svg" width="45" height="45"/>
-    <br>Socket.IO
-  </div>
-
-  <div align="center">
-    <img src="https://skillicons.dev/icons?i=firebase" width="45" height="45"/>
-    <br>Firebase
-  </div>
-
-  <div align="center">
-    <img src="https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg" width="45" height="45"/>
-    <br>Supabase
-  </div>
-
-  <div align="center">
-    <img src="https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" width="45" height="45"/>
-    <br>Excel
-  </div>
-
-  <div align="center">
-    <img src="https://skillicons.dev/icons?i=git" width="45" height="45"/>
-    <br>Git
-  </div>
-
-  <div align="center">
-    <img src="https://skillicons.dev/icons?i=github" width="45" height="45"/>
-    <br>GitHub
-  </div>
-
-  <div align="center">
-    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="45" height="45"/>
-    <br>Postman
-  </div>
-
-  <div align="center">
-    <img src="https://skillicons.dev/icons?i=cpp" width="45" height="45"/>
-    <br>C++
-  </div>
-
-  <div align="center">
-    <img src="https://skillicons.dev/icons?i=python" width="45" height="45"/>
-    <br>Python
-  </div>
-
-  <div align="center">
-    <img src="https://skillicons.dev/icons?i=redis" width="45" height="45"/>
-    <br>Redis
-  </div>
-
-  <div align="center">
-    <img src="https://skillicons.dev/icons?i=mysql" width="45" height="45"/>
-    <br>SQL
-  </div>
-
-  <div align="center">
-    <img src="https://cdn.worldvectorlogo.com/logos/cloudinary-2.svg" width="45" height="45"/>
-    <br>Cloudinary
-  </div>
-
-  <div align="center">
-    <img src="https://cdn.worldvectorlogo.com/logos/brave-1.svg" width="45" height="45"/>
-    <br>Brave
-  </div>
-
-  <div align="center">
-    <img src="https://skillicons.dev/icons?i=docker" width="45" height="45"/>
-    <br>Docker
-  </div>
-
-  <div align="center">
-    <img src="https://skillicons.dev/icons?i=aws" width="45" height="45"/>
-    <br>AWS
-  </div>
-
-</div>
-
+</p>
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.shion.dev/api?username=mahendra0011&theme=default&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://streak-stats.demolab.com/?user=mahendra0011&theme=default&hide_border=false)<br/>
