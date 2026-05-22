@@ -14,6 +14,7 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 <img src="https://skillicons.dev/icons?i=tailwind" width="45" height="45" alt="TailwindCSS"/>
 <img src="https://skillicons.dev/icons?i=javascript" width="45" height="45" alt="JavaScript"/>
 <img src="https://skillicons.dev/icons?i=react" width="45" height="45" alt="React"/>
+<img src="https://cdn.worldvectorlogo.com/logos/redux.svg" width="45" height="45" alt="Redux Toolkit"/>
 <img src="https://skillicons.dev/icons?i=materialui" width="45" height="45" alt="Material UI"/>
 <img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="45" height="45" alt="shadcn/ui"/>
 <img src="https://reactbits.dev/favicon.ico" width="45" height="45" alt="ReactBits"/>
@@ -29,6 +30,8 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="45" height="45" alt="Postman"/>
 <img src="https://skillicons.dev/icons?i=cpp" width="45" height="45" alt="C++"/>
 <img src="https://skillicons.dev/icons?i=python" width="45" height="45" alt="Python"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="45" height="45" alt="Pandas"/><!-- NumPy -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="45" height="45" alt="NumPy"/>
 <img src="https://skillicons.dev/icons?i=redis" width="45" height="45" alt="Redis"/>
 <img src="https://skillicons.dev/icons?i=mysql" width="45" height="45" alt="SQL"/>
 <img src="https://cdn.worldvectorlogo.com/logos/cloudinary-2.svg" width="45" height="45" alt="Cloudinary"/>
