@@ -46,23 +46,5 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=mahendra0011&theme=default&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 
-
-# 🚀 Featured Projects
-
-## 🎟️ Eventra
-World-class event management & ticket booking platform with OTP verification, dashboards, event hosting, secure booking system, and modern UI.
-
-### Tech Stack:
-React.js • Node.js • Express.js • MongoDB • Tailwind CSS • Framer Motion
-
----
-
-## 🏥 MediCore
-Advanced Hospital Management System with patient records, doctor management, appointments, dashboards, and secure authentication.
-
-### Tech Stack:
-MERN Stack • JWT • Tailwind CSS • REST APIs
-
----
 [![](https://visitcount.itsvg.in/api?id=mahendra0011&icon=0&color=0)](https://visitcount.itsvg.in)
 
