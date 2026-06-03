@@ -4,8 +4,7 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/mahendra-prajapati-73163930b) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mahendrapra0077@gmail.cpm) 
 
-## 💻 Languages & Tools
-```html
+
 ## 💻 Languages & Tools
 
 <table align="center">
