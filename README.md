@@ -9,6 +9,7 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 ## 💻 Languages & Tools
 
 <table align="center">
+
 <tr>
 <td align="center" width="75"><img src="https://skillicons.dev/icons?i=html" width="45"/><br><sub>HTML</sub></td>
 <td align="center" width="75"><img src="https://skillicons.dev/icons?i=css" width="45"/><br><sub>CSS</sub></td>
@@ -22,10 +23,10 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 <td align="center" width="75"><img src="https://skillicons.dev/icons?i=nodejs" width="45"/><br><sub>Node.js</sub></td>
 <td align="center" width="75"><img src="https://skillicons.dev/icons?i=express" width="45"/><br><sub>Express</sub></td>
 <td align="center" width="75"><img src="https://skillicons.dev/icons?i=mongodb" width="45"/><br><sub>MongoDB</sub></td>
-<td align="center" width="75"><img src="https://socket.io/images/logo.svg" width="45"/><br><sub>Socket.IO</sub></td>
 </tr>
 
 <tr>
+<td align="center" width="75"><img src="https://socket.io/images/logo.svg" width="45"/><br><sub>Socket.IO</sub></td>
 <td align="center" width="75"><img src="https://skillicons.dev/icons?i=firebase" width="45"/><br><sub>Firebase</sub></td>
 <td align="center" width="75"><img src="https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg" width="45"/><br><sub>Supabase</sub></td>
 <td align="center" width="75"><img src="https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" width="45"/><br><sub>Excel</sub></td>
@@ -37,10 +38,29 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 <td align="center" width="75"><img src="https://skillicons.dev/icons?i=redis" width="45"/><br><sub>Redis</sub></td>
 <td align="center" width="75"><img src="https://skillicons.dev/icons?i=mysql" width="45"/><br><sub>MySQL</sub></td>
 <td align="center" width="75"><img src="https://cdn.worldvectorlogo.com/logos/cloudinary-2.svg" width="45"/><br><sub>Cloudinary</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=docker" width="45"/><br><sub>Docker</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=nginx" width="45"/><br><sub>Nginx</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=aws" width="45"/><br><sub>AWS</sub></td>
 </tr>
+
+<tr>
+<td colspan="4"></td>
+
+<td align="center" width="75">
+<img src="https://skillicons.dev/icons?i=docker" width="45"/><br>
+<sub>Docker</sub>
+</td>
+
+<td align="center" width="75">
+<img src="https://skillicons.dev/icons?i=nginx" width="45"/><br>
+<sub>Nginx</sub>
+</td>
+
+<td align="center" width="75">
+<img src="https://skillicons.dev/icons?i=aws" width="45"/><br>
+<sub>AWS</sub>
+</td>
+
+<td colspan="5"></td>
+</tr>
+
 </table>
 
 
