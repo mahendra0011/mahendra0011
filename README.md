@@ -4,39 +4,94 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/mahendra-prajapati-73163930b) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mahendrapra0077@gmail.cpm) 
 
+## 💻 Languages & Tools
 
+<table>
+<tr>
+<td align="center" width="90">
+<img src="https://skillicons.dev/icons?i=html" width="45"/><br>HTML
+</td>
+<td align="center" width="90">
+<img src="https://skillicons.dev/icons?i=css" width="45"/><br>CSS
+</td>
+<td align="center" width="90">
+<img src="https://skillicons.dev/icons?i=tailwind" width="45"/><br>Tailwind
+</td>
+<td align="center" width="90">
+<img src="https://skillicons.dev/icons?i=javascript" width="45"/><br>JavaScript
+</td>
+<td align="center" width="90">
+<img src="https://skillicons.dev/icons?i=react" width="45"/><br>React
+</td>
+<td align="center" width="90">
+<img src="https://skillicons.dev/icons?i=redux" width="45"/><br>Redux
+</td>
+</tr>
 
-# 💻 Languages & Tools:
-<p align="left">
+<tr>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=materialui" width="45"/><br>Material UI
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=nodejs" width="45"/><br>Node.js
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=express" width="45"/><br>Express
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=mongodb" width="45"/><br>MongoDB
+</td>
+<td align="center">
+<img src="https://socket.io/images/logo.svg" width="45"/><br>Socket.IO
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=firebase" width="45"/><br>Firebase
+</td>
+</tr>
 
-<img src="https://skillicons.dev/icons?i=html" width="45" height="45" alt="HTML"/>
-<img src="https://skillicons.dev/icons?i=css" width="45" height="45" alt="CSS"/>
-<img src="https://skillicons.dev/icons?i=tailwind" width="45" height="45" alt="TailwindCSS"/>
-<img src="https://skillicons.dev/icons?i=javascript" width="45" height="45" alt="JavaScript"/>
-<img src="https://skillicons.dev/icons?i=react" width="45" height="45" alt="React"/>
-<img src="https://cdn.worldvectorlogo.com/logos/redux.svg" width="45" height="45" alt="Redux Toolkit"/>
-<img src="https://skillicons.dev/icons?i=materialui" width="45" height="45" alt="Material UI"/>
-<img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="45" height="45" alt="shadcn/ui"/>
-<img src="https://reactbits.dev/favicon.ico" width="45" height="45" alt="ReactBits"/>
-<img src="https://skillicons.dev/icons?i=nodejs" width="45" height="45" alt="Node.js"/>
-<img src="https://skillicons.dev/icons?i=express" width="45" height="45" alt="Express"/>
-<img src="https://skillicons.dev/icons?i=mongodb" width="45" height="45" alt="MongoDB"/>
-<img src="https://socket.io/images/logo.svg" width="45" height="45" alt="Socket.IO"/>
-<img src="https://skillicons.dev/icons?i=firebase" width="45" height="45" alt="Firebase"/>
-<img src="https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg" width="45" height="45" alt="Supabase"/>
-<img src="https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" width="45" height="45" alt="Excel"/>
-<img src="https://skillicons.dev/icons?i=git" width="45" height="45" alt="Git"/>
-<img src="https://skillicons.dev/icons?i=github" width="45" height="45" alt="GitHub"/>
-<img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="45" height="45" alt="Postman"/>
-<img src="https://skillicons.dev/icons?i=cpp" width="45" height="45" alt="C++"/>
-<img src="https://skillicons.dev/icons?i=python" width="45" height="45" alt="Python"/>
-<img src="https://skillicons.dev/icons?i=redis" width="45" height="45" alt="Redis"/>
-<img src="https://skillicons.dev/icons?i=mysql" width="45" height="45" alt="SQL"/>
-<img src="https://cdn.worldvectorlogo.com/logos/cloudinary-2.svg" width="45" height="45" alt="Cloudinary"/>
-<img src="https://skillicons.dev/icons?i=docker" width="45" height="45" alt="Docker"/>
-<img src="https://skillicons.dev/icons?i=aws" width="45" height="45" alt="AWS"/>
+<tr>
+<td align="center">
+<img src="https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg" width="45"/><br>Supabase
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=redis" width="45"/><br>Redis
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=mysql" width="45"/><br>MySQL
+</td>
+<td align="center">
+<img src="https://cdn.worldvectorlogo.com/logos/cloudinary-2.svg" width="45"/><br>Cloudinary
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=docker" width="45"/><br>Docker
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=nginx" width="45"/><br>Nginx
+</td>
+</tr>
 
-</p>
+<tr>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=aws" width="45"/><br>AWS
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=git" width="45"/><br>Git
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=github" width="45"/><br>GitHub
+</td>
+<td align="center">
+<img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="45"/><br>Postman
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=cpp" width="45"/><br>C++
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=python" width="45"/><br>Python
+</td>
+</tr>
+</table>
+
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.shion.dev/api?username=mahendra0011&theme=default&hide_border=false&include_all_commits=false&count_private=false)<br/>
