@@ -44,7 +44,6 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 <td align="center"><img src="https://skillicons.dev/icons?i=aws" width="45"/><br>AWS</td>
 </tr>
 </table>
-```
 
 
 # 📊 GitHub Stats:
