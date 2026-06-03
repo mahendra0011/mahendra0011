@@ -5,52 +5,29 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/mahendra-prajapati-73163930b) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mahendrapra0077@gmail.cpm) 
 
 ## 💻 Languages & Tools
+```html
+## 💻 Languages & Tools
 
 <p align="center">
-  <span align="center">
-    <img src="https://skillicons.dev/icons?i=html" width="45"/><br>HTML
-  </span>
-  &nbsp;&nbsp;&nbsp;
-  <span align="center">
-    <img src="https://skillicons.dev/icons?i=css" width="45"/><br>CSS
-  </span>
-  &nbsp;&nbsp;&nbsp;
-  <span align="center">
-    <img src="https://skillicons.dev/icons?i=tailwind" width="45"/><br>Tailwind
-  </span>
-  &nbsp;&nbsp;&nbsp;
-  <span align="center">
-    <img src="https://skillicons.dev/icons?i=javascript" width="45"/><br>JavaScript
-  </span>
-  &nbsp;&nbsp;&nbsp;
-  <span align="center">
-    <img src="https://skillicons.dev/icons?i=react" width="45"/><br>React
-  </span>
-  &nbsp;&nbsp;&nbsp;
-  <span align="center">
-    <img src="https://skillicons.dev/icons?i=nodejs" width="45"/><br>Node.js
-  </span>
-  &nbsp;&nbsp;&nbsp;
-  <span align="center">
-    <img src="https://skillicons.dev/icons?i=express" width="45"/><br>Express
-  </span>
-  &nbsp;&nbsp;&nbsp;
-  <span align="center">
-    <img src="https://skillicons.dev/icons?i=mongodb" width="45"/><br>MongoDB
-  </span>
-  &nbsp;&nbsp;&nbsp;
-  <span align="center">
-    <img src="https://skillicons.dev/icons?i=docker" width="45"/><br>Docker
-  </span>
-  &nbsp;&nbsp;&nbsp;
-  <span align="center">
-    <img src="https://skillicons.dev/icons?i=nginx" width="45"/><br>Nginx
-  </span>
-  &nbsp;&nbsp;&nbsp;
-  <span align="center">
-    <img src="https://skillicons.dev/icons?i=aws" width="45"/><br>AWS
-  </span>
+  <table align="center">
+    <tr>
+      <td align="center"><img src="https://skillicons.dev/icons?i=html" width="45"/><br>HTML</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=css" width="45"/><br>CSS</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=tailwind" width="45"/><br>Tailwind</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=js" width="45"/><br>JavaScript</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=react" width="45"/><br>React</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=redux" width="45"/><br>Redux</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=materialui" width="45"/><br>MUI</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=nodejs" width="45"/><br>Node.js</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=express" width="45"/><br>Express</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=mongodb" width="45"/><br>MongoDB</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=docker" width="45"/><br>Docker</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=nginx" width="45"/><br>Nginx</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=aws" width="45"/><br>AWS</td>
+    </tr>
+  </table>
 </p>
+```
 
 
 # 📊 GitHub Stats:
