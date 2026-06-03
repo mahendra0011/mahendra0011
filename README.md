@@ -6,91 +6,51 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 
 ## 💻 Languages & Tools
 
-<table>
-<tr>
-<td align="center" width="90">
-<img src="https://skillicons.dev/icons?i=html" width="45"/><br>HTML
-</td>
-<td align="center" width="90">
-<img src="https://skillicons.dev/icons?i=css" width="45"/><br>CSS
-</td>
-<td align="center" width="90">
-<img src="https://skillicons.dev/icons?i=tailwind" width="45"/><br>Tailwind
-</td>
-<td align="center" width="90">
-<img src="https://skillicons.dev/icons?i=javascript" width="45"/><br>JavaScript
-</td>
-<td align="center" width="90">
-<img src="https://skillicons.dev/icons?i=react" width="45"/><br>React
-</td>
-<td align="center" width="90">
-<img src="https://skillicons.dev/icons?i=redux" width="45"/><br>Redux
-</td>
-</tr>
-
-<tr>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=materialui" width="45"/><br>Material UI
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=nodejs" width="45"/><br>Node.js
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=express" width="45"/><br>Express
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=mongodb" width="45"/><br>MongoDB
-</td>
-<td align="center">
-<img src="https://socket.io/images/logo.svg" width="45"/><br>Socket.IO
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=firebase" width="45"/><br>Firebase
-</td>
-</tr>
-
-<tr>
-<td align="center">
-<img src="https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg" width="45"/><br>Supabase
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=redis" width="45"/><br>Redis
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=mysql" width="45"/><br>MySQL
-</td>
-<td align="center">
-<img src="https://cdn.worldvectorlogo.com/logos/cloudinary-2.svg" width="45"/><br>Cloudinary
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=docker" width="45"/><br>Docker
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=nginx" width="45"/><br>Nginx
-</td>
-</tr>
-
-<tr>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=aws" width="45"/><br>AWS
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=git" width="45"/><br>Git
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=github" width="45"/><br>GitHub
-</td>
-<td align="center">
-<img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="45"/><br>Postman
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=cpp" width="45"/><br>C++
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=python" width="45"/><br>Python
-</td>
-</tr>
-</table>
+<p align="center">
+  <span align="center">
+    <img src="https://skillicons.dev/icons?i=html" width="45"/><br>HTML
+  </span>
+  &nbsp;&nbsp;&nbsp;
+  <span align="center">
+    <img src="https://skillicons.dev/icons?i=css" width="45"/><br>CSS
+  </span>
+  &nbsp;&nbsp;&nbsp;
+  <span align="center">
+    <img src="https://skillicons.dev/icons?i=tailwind" width="45"/><br>Tailwind
+  </span>
+  &nbsp;&nbsp;&nbsp;
+  <span align="center">
+    <img src="https://skillicons.dev/icons?i=javascript" width="45"/><br>JavaScript
+  </span>
+  &nbsp;&nbsp;&nbsp;
+  <span align="center">
+    <img src="https://skillicons.dev/icons?i=react" width="45"/><br>React
+  </span>
+  &nbsp;&nbsp;&nbsp;
+  <span align="center">
+    <img src="https://skillicons.dev/icons?i=nodejs" width="45"/><br>Node.js
+  </span>
+  &nbsp;&nbsp;&nbsp;
+  <span align="center">
+    <img src="https://skillicons.dev/icons?i=express" width="45"/><br>Express
+  </span>
+  &nbsp;&nbsp;&nbsp;
+  <span align="center">
+    <img src="https://skillicons.dev/icons?i=mongodb" width="45"/><br>MongoDB
+  </span>
+  &nbsp;&nbsp;&nbsp;
+  <span align="center">
+    <img src="https://skillicons.dev/icons?i=docker" width="45"/><br>Docker
+  </span>
+  &nbsp;&nbsp;&nbsp;
+  <span align="center">
+    <img src="https://skillicons.dev/icons?i=nginx" width="45"/><br>Nginx
+  </span>
+  &nbsp;&nbsp;&nbsp;
+  <span align="center">
+    <img src="https://skillicons.dev/icons?i=aws" width="45"/><br>AWS
+  </span>
+</p>
 
 
 # 📊 GitHub Stats:
