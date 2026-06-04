@@ -75,6 +75,7 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 </tr>
 
 </table>
+
 # 📊 GitHub Stats
 
 ![](https://streak-stats.demolab.com/?user=mahendra0011&theme=default&hide_border=false)
