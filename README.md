@@ -9,66 +9,66 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 <table align="center">
 
 <tr>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=html" width="34"/><br><sub>HTML</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=css" width="34"/><br><sub>CSS</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=tailwind" width="34"/><br><sub>Tailwind</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=javascript" width="34"/><br><sub>JavaScript</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=react" width="34"/><br><sub>React</sub></td>
-<td align="center" width="75"><img src="https://reactrouter.com/favicon-light.png" width="34"/><br><sub>React Router</sub></td>
-<td align="center" width="75"><img src="https://www.chartjs.org/img/chartjs-logo.svg" width="34"/><br><sub>React Charts</sub></td>
-<td align="center" width="75"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" width="34"/><br><sub>Redux</sub></td>
-<td align="center" width="75"><img src="https://recoiljs.org/img/logo.svg" width="34"/><br><sub>Recoil</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=materialui" width="34"/><br><sub>MUI</sub></td>
-<td align="center" width="75"><img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="34"/><br><sub>shadcn/ui</sub></td>
-<td align="center" width="75"><img src="https://reactbits.dev/favicon.ico" width="34"/><br><sub>ReactBits</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=html" width="33"/><br><sub>HTML</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=css" width="33"/><br><sub>CSS</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=tailwind" width="33"/><br><sub>Tailwind</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=javascript" width="33"/><br><sub>JavaScript</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=react" width="33"/><br><sub>React</sub></td>
+<td align="center" width="75"><img src="https://reactrouter.com/favicon-light.png" width="33"/><br><sub>React Router</sub></td>
+<td align="center" width="75"><img src="https://www.chartjs.org/img/chartjs-logo.svg" width="33"/><br><sub>React Charts</sub></td>
+<td align="center" width="75"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" width="33"/><br><sub>Redux</sub></td>
+<td align="center" width="75"><img src="https://recoiljs.org/img/logo.svg" width="33"/><br><sub>Recoil</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=materialui" width="33"/><br><sub>MUI</sub></td>
+<td align="center" width="75"><img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="33"/><br><sub>shadcn/ui</sub></td>
+<td align="center" width="75"><img src="https://reactbits.dev/favicon.ico" width="33"/><br><sub>ReactBits</sub></td>
 </tr>
 
 <tr>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=nodejs" width="34"/><br><sub>Node.js</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=express" width="34"/><br><sub>Express</sub></td>
-<td align="center" width="75"><img src="https://cdn-icons-png.flaticon.com/512/2165/2165004.png" width="34"/><br><sub>REST API</sub></td>
-<td align="center" width="75"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC4BxIov43BTB9UcXpNl93hWRvfYIZ5u1l9A&s" width="34"/><br><sub>WebRTC</sub></td>
-<td align="center" width="75"><img src="https://jwt.io/img/pic_logo.svg" width="34"/><br><sub>JWT</sub></td>
-<td align="center" width="75"><img src="https://www.pngitem.com/pimgs/m/91-913031_axios-axios-logo-hd-png-download.png" width="34"/><br><sub>Axios</sub></td>
-<td align="center" width="75"><img src="https://graphql.org/img/logo.svg" width="34"/><br><sub>GraphQL</sub></td>
-<td align="center" width="75"><img src="https://play-lh.googleusercontent.com/dEKRuPx_HTF9bfj5cJIsluTilIpXD40QY4NIoyE22o59sLN6GwrInnshYPUYB31-prBPVF0P4HWcWn_7759VzA=w600-h300-pc0xffffff-pd" width="34"/><br><sub>PDFKit</sub></td>
-<td align="center" width="75"><img src="https://i0.wp.com/community.nodemailer.com/wp-content/uploads/2015/10/n2-2.png?fit=422%2C360&ssl=1" width="34"/><br><sub>Nodemailer</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=redis" width="34"/><br><sub>Redis</sub></td>
-<td align="center" width="75"><img src="https://socket.io/images/logo.svg" width="34"/><br><sub>Socket.IO</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=firebase" width="34"/><br><sub>Firebase</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=nodejs" width="33"/><br><sub>Node.js</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=express" width="33"/><br><sub>Express</sub></td>
+<td align="center" width="75"><img src="https://cdn-icons-png.flaticon.com/512/2165/2165004.png" width="33"/><br><sub>REST API</sub></td>
+<td align="center" width="75"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC4BxIov43BTB9UcXpNl93hWRvfYIZ5u1l9A&s" width="33"/><br><sub>WebRTC</sub></td>
+<td align="center" width="75"><img src="https://jwt.io/img/pic_logo.svg" width="33"/><br><sub>JWT</sub></td>
+<td align="center" width="75"><img src="https://www.pngitem.com/pimgs/m/91-913031_axios-axios-logo-hd-png-download.png" width="33"/><br><sub>Axios</sub></td>
+<td align="center" width="75"><img src="https://graphql.org/img/logo.svg" width="33"/><br><sub>GraphQL</sub></td>
+<td align="center" width="75"><img src="https://play-lh.googleusercontent.com/dEKRuPx_HTF9bfj5cJIsluTilIpXD40QY4NIoyE22o59sLN6GwrInnshYPUYB31-prBPVF0P4HWcWn_7759VzA=w600-h300-pc0xffffff-pd" width="33"/><br><sub>PDFKit</sub></td>
+<td align="center" width="75"><img src="https://i0.wp.com/community.nodemailer.com/wp-content/uploads/2015/10/n2-2.png?fit=422%2C360&ssl=1" width="33"/><br><sub>Nodemailer</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=redis" width="33"/><br><sub>Redis</sub></td>
+<td align="center" width="75"><img src="https://socket.io/images/logo.svg" width="33"/><br><sub>Socket.IO</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=firebase" width="33"/><br><sub>Firebase</sub></td>
 </tr>
 
 <tr>
-<td align="center" width="75"><img src="https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg" width="34"/><br><sub>Supabase</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=mongodb" width="34"/><br><sub>MongoDB</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=mysql" width="34"/><br><sub>MySQL</sub></td>
-<td align="center" width="75"><img src="https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" width="34"/><br><sub>Excel</sub></td>
-<td align="center" width="75"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="34"/><br><sub>Postman</sub></td>
-<td align="center" width="75"><img src="https://play-lh.googleusercontent.com/wevCEgqD3vMcB2w0GNb7Zzy7CUqMdmds6Grrdy7rNPOLTyPfqJpbUwmboPk5dHwSrbaIP8DOvuUR5NTqjDjK=w240-h480-rw" width="34"/><br><sub>MapCN</sub></td>
+<td align="center" width="75"><img src="https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg" width="33"/><br><sub>Supabase</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=mongodb" width="33"/><br><sub>MongoDB</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=mysql" width="33"/><br><sub>MySQL</sub></td>
+<td align="center" width="75"><img src="https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" width="33"/><br><sub>Excel</sub></td>
+<td align="center" width="75"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="33"/><br><sub>Postman</sub></td>
+<td align="center" width="75"><img src="https://play-lh.googleusercontent.com/wevCEgqD3vMcB2w0GNb7Zzy7CUqMdmds6Grrdy7rNPOLTyPfqJpbUwmboPk5dHwSrbaIP8DOvuUR5NTqjDjK=w240-h480-rw" width="33"/><br><sub>MapCN</sub></td>
 
-<td align="center" width="75"><img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" width="34"/><br><sub>Google Cloud</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=cpp" width="34"/><br><sub>C++</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=python" width="34"/><br><sub>Python</sub></td>
-<td align="center" width="75"><img src="https://cdn.worldvectorlogo.com/logos/cloudinary-2.svg" width="34"/><br><sub>Cloudinary</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=vscode" width="34"/><br><sub>VS Code</sub></td>
-<td align="center" width="75"><img src="https://cdn.worldvectorlogo.com/logos/hostinger.svg" width="34"/><br><sub>Hostinger</sub></td>
+<td align="center" width="75"><img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" width="33"/><br><sub>Google Cloud</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=cpp" width="33"/><br><sub>C++</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=python" width="33"/><br><sub>Python</sub></td>
+<td align="center" width="75"><img src="https://cdn.worldvectorlogo.com/logos/cloudinary-2.svg" width="33"/><br><sub>Cloudinary</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=vscode" width="33"/><br><sub>VS Code</sub></td>
+<td align="center" width="75"><img src="https://cdn.worldvectorlogo.com/logos/hostinger.svg" width="33"/><br><sub>Hostinger</sub></td>
 </tr>
 
 <tr>
-<td align="center" width="75"><img src="https://s3-eu-west-1.amazonaws.com/tpd/logos/64673af70acf8e2ffe4a4d29/0x0.png" width="34"/><br><sub>Brevo</sub></td>
-<td align="center" width="75"><img src="https://www.vectorlogo.zone/logos/sendgrid/sendgrid-icon.svg" width="34"/><br><sub>SendGrid</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=git" width="34"/><br><sub>Git</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=github" width="34"/><br><sub>GitHub</sub></td>
-<td align="center" width="75"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9nNZVxrqmSMQnNMDKHdTkNFOxPkYUA0HZUA&s" width="34"/><br><sub>GitHub Actions</sub></td>
+<td align="center" width="75"><img src="https://s3-eu-west-1.amazonaws.com/tpd/logos/64673af70acf8e2ffe4a4d29/0x0.png" width="33"/><br><sub>Brevo</sub></td>
+<td align="center" width="75"><img src="https://www.vectorlogo.zone/logos/sendgrid/sendgrid-icon.svg" width="33"/><br><sub>SendGrid</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=git" width="33"/><br><sub>Git</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=github" width="33"/><br><sub>GitHub</sub></td>
+<td align="center" width="75"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9nNZVxrqmSMQnNMDKHdTkNFOxPkYUA0HZUA&s" width="33"/><br><sub>GitHub Actions</sub></td>
 
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=docker" width="34"/><br><sub>Docker</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=nginx" width="34"/><br><sub>Nginx</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=aws" width="34"/><br><sub>AWS</sub></td>
-<td align="center" width="75"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNDviiaPE12JqpQWrq3S9YrEr_x78jLHrkow&s" width="34"/><br><sub>VPS</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=docker" width="33"/><br><sub>Docker</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=nginx" width="33"/><br><sub>Nginx</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=aws" width="33"><br><sub>AWS</sub></td>
+<td align="center" width="75"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNDviiaPE12JqpQWrq3S9YrEr_x78jLHrkow&s" width="33"/><br><sub>VPS</sub></td>
 
-<td align="center" width="75"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Amazon_Lambda_architecture_logo.svg" width="35"/><br<sub>Serverless</sub></td>
-<td align="center" width="75"><img src="https://cdn.worldvectorlogo.com/logos/razorpay.svg" width="34"/><br><sub>Razorpay</sub></td>
-<td align="center" width="75"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq6BHXZy8phrV_PtLWIxV-rVn6yI2sISZCMw&s" width="34"/><br><sub>Cashfree</sub></td>
+<td align="center" width="75"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Amazon_Lambda_architecture_logo.svg" width="33"/><br<sub>Serverless</sub></td>
+<td align="center" width="75"><img src="https://cdn.worldvectorlogo.com/logos/razorpay.svg" width="33"/><br><sub>Razorpay</sub></td>
+<td align="center" width="75"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq6BHXZy8phrV_PtLWIxV-rVn6yI2sISZCMw&s" width="33"/><br><sub>Cashfree</sub></td>
 
 
 </tr>
