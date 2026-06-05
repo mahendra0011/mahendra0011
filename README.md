@@ -9,18 +9,18 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 <table align="center">
 
 <tr>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=html" width="45"/><br><sub>HTML</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=css" width="45"/><br><sub>CSS</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=tailwind" width="45"/><br><sub>Tailwind</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=javascript" width="45"/><br><sub>JavaScript</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=react" width="45"/><br><sub>React</sub></td>
-<td align="center" width="75"><img src="https://reactrouter.com/favicon-light.png" width="45"/><br><sub>React Router</sub></td>
-<td align="center" width="75"><img src="https://www.chartjs.org/img/chartjs-logo.svg" width="45"/><br><sub>React Charts</sub></td>
-<td align="center" width="75"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" width="45"/><br><sub>Redux</sub></td>
-<td align="center" width="75"><img src="https://recoiljs.org/img/logo.svg" width="45"/><br><sub>Recoil</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=materialui" width="45"/><br><sub>MUI</sub></td>
-<td align="center" width="75"><img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="45"/><br><sub>shadcn/ui</sub></td>
-<td align="center" width="75"><img src="https://reactbits.dev/favicon.ico" width="45"/><br><sub>ReactBits</sub></td>
+<td align="center" width="45"><img src="https://skillicons.dev/icons?i=html" width="45"/><br><sub>HTML</sub></td>
+<td align="center" width="45"><img src="https://skillicons.dev/icons?i=css" width="45"/><br><sub>CSS</sub></td>
+<td align="center" width="45"><img src="https://skillicons.dev/icons?i=tailwind" width="45"/><br><sub>Tailwind</sub></td>
+<td align="center" width="45"><img src="https://skillicons.dev/icons?i=javascript" width="45"/><br><sub>JavaScript</sub></td>
+<td align="center" width="45"><img src="https://skillicons.dev/icons?i=react" width="45"/><br><sub>React</sub></td>
+<td align="center" width="45"><img src="https://reactrouter.com/favicon-light.png" width="45"/><br><sub>React Router</sub></td>
+<td align="center" width="45"><img src="https://www.chartjs.org/img/chartjs-logo.svg" width="45"/><br><sub>React Charts</sub></td>
+<td align="center" width="45"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" width="45"/><br><sub>Redux</sub></td>
+<td align="center" width="45"><img src="https://recoiljs.org/img/logo.svg" width="45"/><br><sub>Recoil</sub></td>
+<td align="center" width="45"><img src="https://skillicons.dev/icons?i=materialui" width="45"/><br><sub>MUI</sub></td>
+<td align="center" width="45"><img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="45"/><br><sub>shadcn/ui</sub></td>
+<td align="center" width="45"><img src="https://reactbits.dev/favicon.ico" width="45"/><br><sub>ReactBits</sub></td>
 </tr>
 
 <tr>
@@ -64,8 +64,9 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
   <img src="https://cdn.worldvectorlogo.com/logos/hostinger.svg" width="45"/><br>
   <sub>Hostinger</sub>
 </td>
+  <td>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWUDaH6P06xkn7sZnzM2ma110UrjX3vCw0nQ&s" width="45"/><br>
-  <sub>Go Daddy</sub>
+  <sub>GoDaddy</sub>
 </td>
 <td align="center" width="75"><img src="https://cdn.worldvectorlogo.com/logos/razorpay.svg" width="45"/><br><sub>Razorpay</sub></td>
 <td align="center" width="75"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq6BHXZy8phrV_PtLWIxV-rVn6yI2sISZCMw&s" width="45"/><br><sub>Cashfree</sub></td>
