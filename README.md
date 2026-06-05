@@ -43,29 +43,34 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 <td align="center" width="75"><img src="https://skillicons.dev/icons?i=mongodb" width="34"/><br><sub>MongoDB</sub></td>
 <td align="center" width="75"><img src="https://skillicons.dev/icons?i=mysql" width="34"/><br><sub>MySQL</sub></td>
 <td align="center" width="75"><img src="https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" width="34"/><br><sub>Excel</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=git" width="34"/><br><sub>Git</sub></td>
-<td align="center" width="75"><img src="https://skillicons.dev/icons?i=github" width="34"/><br><sub>GitHub</sub></td>
-<td align="center" width="75"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9nNZVxrqmSMQnNMDKHdTkNFOxPkYUA0HZUA&s" width="34"/><br><sub>GitHub Actions</sub></td>
+<td align="center" width="75"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="34"/><br><sub>Postman</sub></td>
+<td align="center" width="75"><img src="https://play-lh.googleusercontent.com/wevCEgqD3vMcB2w0GNb7Zzy7CUqMdmds6Grrdy7rNPOLTyPfqJpbUwmboPk5dHwSrbaIP8DOvuUR5NTqjDjK=w240-h480-rw" width="34"/><br><sub>MapCN</sub></td>
+
 <td align="center" width="75"><img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" width="34"/><br><sub>Google Cloud</sub></td>
 <td align="center" width="75"><img src="https://skillicons.dev/icons?i=cpp" width="34"/><br><sub>C++</sub></td>
 <td align="center" width="75"><img src="https://skillicons.dev/icons?i=python" width="34"/><br><sub>Python</sub></td>
 <td align="center" width="75"><img src="https://cdn.worldvectorlogo.com/logos/cloudinary-2.svg" width="34"/><br><sub>Cloudinary</sub></td>
 <td align="center" width="75"><img src="https://skillicons.dev/icons?i=vscode" width="34"/><br><sub>VS Code</sub></td>
+<td align="center" width="75"><img src="https://cdn.worldvectorlogo.com/logos/hostinger.svg" width="34"/><br><sub>Hostinger</sub></td>
 </tr>
 
 <tr>
-<td align="center" width="75"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="34"/><br><sub>Postman</sub></td>
-<td align="center" width="75"><img src="https://play-lh.googleusercontent.com/wevCEgqD3vMcB2w0GNb7Zzy7CUqMdmds6Grrdy7rNPOLTyPfqJpbUwmboPk5dHwSrbaIP8DOvuUR5NTqjDjK=w240-h480-rw" width="34"/><br><sub>MapCN</sub></td>
+<td align="center" width="75"><img src="https://s3-eu-west-1.amazonaws.com/tpd/logos/64673af70acf8e2ffe4a4d29/0x0.png" width="34"/><br><sub>Brevo</sub></td>
+<td align="center" width="75"><img src="https://www.vectorlogo.zone/logos/sendgrid/sendgrid-icon.svg" width="34"/><br><sub>SendGrid</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=git" width="34"/><br><sub>Git</sub></td>
+<td align="center" width="75"><img src="https://skillicons.dev/icons?i=github" width="34"/><br><sub>GitHub</sub></td>
+<td align="center" width="75"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9nNZVxrqmSMQnNMDKHdTkNFOxPkYUA0HZUA&s" width="34"/><br><sub>GitHub Actions</sub></td>
+
 <td align="center" width="75"><img src="https://skillicons.dev/icons?i=docker" width="34"/><br><sub>Docker</sub></td>
 <td align="center" width="75"><img src="https://skillicons.dev/icons?i=nginx" width="34"/><br><sub>Nginx</sub></td>
 <td align="center" width="75"><img src="https://skillicons.dev/icons?i=aws" width="34"/><br><sub>AWS</sub></td>
 <td align="center" width="75"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNDviiaPE12JqpQWrq3S9YrEr_x78jLHrkow&s" width="34"/><br><sub>VPS</sub></td>
-<td align="center" width="75"><img src="https://cdn.worldvectorlogo.com/logos/hostinger.svg" width="34"/><br><sub>Hostinger</sub></td>
-<td align="center" width="75"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWUDaH6P06xkn7sZnzM2ma110UrjX3vCw0nQ&s" width="34"/><br><sub>GoDaddy</sub></td>
+
+<td align="center" width="75"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Amazon_Lambda_architecture_logo.svg" width="35"/><br<sub>Serverless</sub></td>
 <td align="center" width="75"><img src="https://cdn.worldvectorlogo.com/logos/razorpay.svg" width="34"/><br><sub>Razorpay</sub></td>
 <td align="center" width="75"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq6BHXZy8phrV_PtLWIxV-rVn6yI2sISZCMw&s" width="34"/><br><sub>Cashfree</sub></td>
-<td align="center" width="75"><img src="https://s3-eu-west-1.amazonaws.com/tpd/logos/64673af70acf8e2ffe4a4d29/0x0.png" width="34"/><br><sub>Brevo</sub></td>
-<td align="center" width="75"><img src="https://www.vectorlogo.zone/logos/sendgrid/sendgrid-icon.svg" width="34"/><br><sub>SendGrid</sub></td>
+
+
 </tr>
 
 </table>
