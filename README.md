@@ -60,8 +60,13 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 <td align="center" width="75"><img src="https://skillicons.dev/icons?i=nginx" width="45"/><br><sub>Nginx</sub></td>
 <td align="center" width="75"><img src="https://skillicons.dev/icons?i=aws" width="45"/><br><sub>AWS</sub></td>
 <td align="center" width="75"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNDviiaPE12JqpQWrq3S9YrEr_x78jLHrkow&s" width="45"/><br><sub>VPS</sub></td>
-<td align="center" width="75"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWUDaH6P06xkn7sZnzM2ma110UrjX3vCw0nQ&s" width="45"/><br><sub>Hostinger</sub></td>
-<td align="center" width="75"><img src="https://www.vectorlogo.zone/logos/godaddy/godaddy-icon.svg" width="45"/><br><sub>GoDaddy</sub></td>
+  <td>
+  <img src="https://cdn.worldvectorlogo.com/logos/hostinger.svg" width="45"/><br>
+  <sub>Hostinger</sub>
+</td>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWUDaH6P06xkn7sZnzM2ma110UrjX3vCw0nQ&s" width="45"/><br>
+  <sub>Go Daddy</sub>
+</td>
 <td align="center" width="75"><img src="https://cdn.worldvectorlogo.com/logos/razorpay.svg" width="45"/><br><sub>Razorpay</sub></td>
 <td align="center" width="75"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq6BHXZy8phrV_PtLWIxV-rVn6yI2sISZCMw&s" width="45"/><br><sub>Cashfree</sub></td>
 <td align="center" width="75"><img src="https://s3-eu-west-1.amazonaws.com/tpd/logos/64673af70acf8e2ffe4a4d29/0x0.png" width="45"/><br><sub>Brevo</sub></td>
