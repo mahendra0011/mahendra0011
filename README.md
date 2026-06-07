@@ -1,6 +1,8 @@
 # 💫 About Me:
 Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. I enjoy building real-world web applications and improving my  skills every day.
 
+![](https://komarev.com/ghpvc/?username=mahendra0011)
+
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/mahendra-prajapati-73163930b) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mahendrapra0077@gmail.cpm) 
 
