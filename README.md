@@ -4,16 +4,11 @@
 
 # Hey there 👋, 
 I'm Mahendra Prajapati
-Full Stack Developer | React.js • Next.js • Node.js • MongoDB • Docker • AWS
-
-Building scalable, secure, and high-performance web applications that transform ideas into impactful digital products.
+Full Stack Developer i can build scalable, secure, and high-performance web applications that transform ideas into impactful digital products.
 
 # 🚀 About Me
 
-I'm a passionate Full Stack Developer and B.Tech Electronics & Communication Engineering student from Jabalpur, Madhya Pradesh.
-
-I specialize in building modern web applications using React.js, Next.js, Node.js, Express.js, MongoDB, Docker, AWS, and REST APIs. My focus is on developing reliable backend systems, intuitive user experiences, and production-ready applications that solve real-world problems.
-![](https://komarev.com/ghpvc/?username=mahendra0011)
+I specialize in building modern web applications using React.js, Node.js, Express.js, MongoDB, Docker, AWS, and REST APIs. My focus is on developing reliable backend systems, intuitive user experiences, and production-ready applications that solve real-world problems.
 
 ## 🌐 Connect with me:
 [![Portfolio](https://img.shields.io/badge/Portfolio-0A66C2?logo=google-chrome&logoColor=white)](https://mahendraportfolio.onrender.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mahendra)  [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@mahendra) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mahendrapra0077@gmail.com)
@@ -98,23 +93,23 @@ I specialize in building modern web applications using React.js, Next.js, Node.j
 [![](https://komarev.com/ghpvc/?username=mahendra0011&icon=0&color=0)](https://visitcount.itsvg.in)
 
 
-# 🏆 Highlights
-🚀 Built 10+ Full Stack Projects
-💻 1000+ GitHub Contributions
-🏅 Smart India Hackathon Team Leader
-🌐 Growing Professional Network on LinkedIn
-☁️ Exploring Cloud, DevOps
+## 🏆 Highlights
+
+✨ Built **15+ Full Stack Projects**  
+💻 Achieved **1000+ GitHub Contributions**  
+🏅 Led a team in **Smart India Hackathon**  
+🌐 Building a growing professional presence on **LinkedIn**  
+☁️ Exploring **Cloud, DevOps & System Design**  
+
+## 📌 Current Focus
+
+🚀 Building production-ready full-stack applications  
+☁️ Learning AWS, Docker & scalable architectures  
+🏗️ Exploring System Design and DevOps practices  
+💡 Contributing to impactful real-world projects
 
 
-# 📌 Current Focus
-Building production-ready full-stack applications
-Learning AWS, Docker & scalable architectures
-Exploring System Design and DevOps practices
-Contributing to impactful real-world projects
-
-
-# 🤝 Let's Connect
- Building reliable, scalable, and impactful software that creates real value.
-
-Building reliable, scalable, and impactful software that creates real value.
+<p align="left">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&pause=1000&color=36BCF7&vCenter=true&width=900&lines=Building%2C%20and%20impactful%20software%20that%20creates%20real%20value" />
+</p>
 
