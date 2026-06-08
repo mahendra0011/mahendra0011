@@ -1,10 +1,22 @@
-# 💫 About Me:
-Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. I enjoy building real-world web applications and improving my  skills every day.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;React+%7C+Node.js+%7C+MongoDB;Docker+%7C+AWS+%7C+Cloud+Enthusiast;Building+Impactful+Digital+Products" />
+</p>
 
+# Hey there 👋, 
+I'm Mahendra Prajapati
+Full Stack Developer | React.js • Next.js • Node.js • MongoDB • Docker • AWS
+
+Building scalable, secure, and high-performance web applications that transform ideas into impactful digital products.
+
+# 🚀 About Me
+
+I'm a passionate Full Stack Developer and B.Tech Electronics & Communication Engineering student from Jabalpur, Madhya Pradesh.
+
+I specialize in building modern web applications using React.js, Next.js, Node.js, Express.js, MongoDB, Docker, AWS, and REST APIs. My focus is on developing reliable backend systems, intuitive user experiences, and production-ready applications that solve real-world problems.
 ![](https://komarev.com/ghpvc/?username=mahendra0011)
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/mahendra-prajapati-73163930b) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mahendrapra0077@gmail.cpm) 
+## 🌐 Connect with me:
+[![Portfolio](https://img.shields.io/badge/Portfolio-0A66C2?logo=google-chrome&logoColor=white)](https://mahendraportfolio.onrender.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mahendra)  [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@mahendra) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mahendrapra0077@gmail.com)
 
 ## 💻 Languages & Tools
 
@@ -76,13 +88,33 @@ Hi, I'm Mahedra prajapati a 3rd year B.tech ECE student a MERN Stack Developer. 
 </tr>
 
 </table>
-
-
-
-# 📊 GitHub Stats
-
-![](https://streak-stats.demolab.com/?user=mahendra0011&theme=default&hide_border=false)
-
+ 
+# 📊 GitHub Stats:
+![](https://github-readme-stats.shion.dev/api?username=mahendra0011&theme=default&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://streak-stats.demolab.com/?user=mahendra0011&theme=default&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=mahendra0011&theme=default&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-[![](https://visitcount.itsvg.in/api?id=mahendra0011&icon=0&color=0)](https://visitcount.itsvg.in)
+---
+[![](https://komarev.com/ghpvc/?username=mahendra0011&icon=0&color=0)](https://visitcount.itsvg.in)
+
+
+# 🏆 Highlights
+🚀 Built 10+ Full Stack Projects
+💻 1000+ GitHub Contributions
+🏅 Smart India Hackathon Team Leader
+🌐 Growing Professional Network on LinkedIn
+☁️ Exploring Cloud, DevOps
+
+
+# 📌 Current Focus
+Building production-ready full-stack applications
+Learning AWS, Docker & scalable architectures
+Exploring System Design and DevOps practices
+Contributing to impactful real-world projects
+
+
+# 🤝 Let's Connect
+ Building reliable, scalable, and impactful software that creates real value.
+
+Building reliable, scalable, and impactful software that creates real value.
+
