@@ -83,17 +83,15 @@ I specialize in building modern web applications using React.js, Node.js, Expres
 </tr>
 
 </table>
- 
+
 # 📊 GitHub Stats:
-<div align="center">
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=mahendra0011&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)<br/><br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=mahendra0011&theme=radical&hide_border=false)<br/><br/>
+![](https://github-readme-stats.vercel.app/api?username=mahendra0011&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/><br/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=default&include_all_commits=true&count_private=true"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&langs_count=8"/>
-
-<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME"/>
-
-</div>
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=mahendra0011&limit=5&theme=dracula&combine_all_yearly_contributions=true)
 
 ## 🏆 Highlights
 
