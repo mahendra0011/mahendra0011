@@ -90,9 +90,6 @@ I specialize in building modern web applications using React.js, Node.js, Expres
 ![](https://github-readme-stats.vercel.app/api?username=mahendra0011&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/><br/>
 
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=mahendra0011&limit=5&theme=dracula&combine_all_yearly_contributions=true)
-
 ## 🏆 Highlights
 
 ✨ Built **15+ Full Stack Projects**  
