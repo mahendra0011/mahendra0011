@@ -80,6 +80,20 @@ I specialize in building modern web applications using React.js, Node.js, Expres
 <td align="center" width="75"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq6BHXZy8phrV_PtLWIxV-rVn6yI2sISZCMw&s" width="33"/><br><sub>Cashfree</sub></td>
 
 
+## GitHub Stats
+
+![Commits](https://img.shields.io/badge/All--Branch_Commits-1%2C059-blue?style=flat-square&logo=git) ![Repos](https://img.shields.io/badge/Repos-16-informational?style=flat-square&logo=github) ![Stars](https://img.shields.io/badge/Stars-0-yellow?style=flat-square&logo=github) ![PRs](https://img.shields.io/badge/PRs-5-blueviolet?style=flat-square&logo=github) ![Issues](https://img.shields.io/badge/Issues-1-red?style=flat-square&logo=github)
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mahendra0011&show_icons=true&count_private=true&include_all_commits=true&theme=default&hide_border=true" alt="GitHub Stats" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahendra0011&layout=compact&count_private=true&theme=default&hide_border=true&langs_count=8" alt="Top Languages" height="160" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mahendra0011&theme=default&hide_border=true" alt="GitHub Streak" />
+</p>
+
+
 
 ## 🏆 Highlights
 
