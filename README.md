@@ -80,25 +80,6 @@ I specialize in building modern web applications using React.js, Node.js, Expres
 <td align="center" width="75"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq6BHXZy8phrV_PtLWIxV-rVn6yI2sISZCMw&s" width="33"/><br><sub>Cashfree</sub></td>
 
 
-</tr>
-
-</table>
- # 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=mahendra0011&theme=default&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=mahendra0011&theme=default&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=mahendra0011&theme=default&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-<div align="center">
-
----
-[![](https://komarev.com/ghpvc/?username=mahendra0011&icon=0&color=0)](https://visitcount.itsvg.in)
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=default&include_all_commits=true&count_private=true"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&langs_count=8"/>
-
-<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME"/>
-
-</div>
-
 
 ## 🏆 Highlights
 
