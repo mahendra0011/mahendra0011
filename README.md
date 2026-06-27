@@ -92,7 +92,7 @@ I specialize in building modern web applications using React.js, Node.js, Expres
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=mahendra0011&theme=default&hide_border=true" alt="GitHub Streak" />
 </p>
-
+<table>
 
 
 ## 🏆 Highlights
