@@ -1,11 +1,12 @@
 """
 count_commits.py — mahendra0011
 Counts ALL commits across ALL branches (no author filter).
-Updates README with github-readme-stats cards (exact screenshot UI).
+Updates README with github-readme-stats cards (tokyonight theme).
 """
 
 import os, re, requests
 from collections import defaultdict
+from datetime import datetime
 
 TOKEN    = os.environ["GH_TOKEN"]
 USERNAME = "mahendra0011"
@@ -38,10 +39,6 @@ def pages(url, params=None):
     return out
 
 def get_contributions():
-    """
-    Fetch ALL contributions across ALL years by looping year by year.
-    Same logic as commit counting — no shortcuts.
-    """
     query = """
     query($login: String!, $from: DateTime!, $to: DateTime!) {
       user(login: $login) {
@@ -49,12 +46,11 @@ def get_contributions():
           contributionCalendar {
             totalContributions
           }
+          restrictedContributionsCount
         }
-        createdAt
       }
     }
     """
-    # First get account creation year
     try:
         r = requests.post(
             "https://api.github.com/graphql",
@@ -71,7 +67,6 @@ def get_contributions():
     except:
         join_year = 2019
 
-    from datetime import datetime
     current_year = datetime.now().year
     total = 0
 
@@ -89,9 +84,12 @@ def get_contributions():
                 headers={"Authorization": f"Bearer {TOKEN}"},
                 timeout=30
             )
-            count = r.json()["data"]["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
-            print(f"    {year}: {count:,} contributions")
-            total += count
+            data = r.json()["data"]["user"]["contributionsCollection"]
+            calendar   = data["contributionCalendar"]["totalContributions"]
+            restricted = data["restrictedContributionsCount"]
+            year_total = calendar + restricted
+            print(f"    {year}: {calendar} public + {restricted} private = {year_total}")
+            total += year_total
         except Exception as e:
             print(f"    {year}: error - {e}")
 
@@ -145,40 +143,20 @@ def search_count(q):
     except:
         return 0
 
-def top_langs(repos):
-    lb = defaultdict(int)
-    for repo in repos:
-        try:
-            for lang, b in gh(repo["languages_url"]).json().items():
-                lb[lang] += b
-        except:
-            pass
-    total = sum(lb.values()) or 1
-    return [(l, round(b/total*100, 2))
-            for l, b in sorted(lb.items(), key=lambda x: -x[1])]
-
 def build_stats_block(total_commits, contributions, stars, prs, issues):
     return f"""<!-- STATS_START -->
 <!-- Auto-updated by GitHub Action every day — do not edit between these markers -->
 
-<table align="center" width="100%" border="1" cellpadding="10" cellspacing="0" style="border-collapse:collapse">
+<table align="center" width="100%" border="0" cellpadding="10" cellspacing="0" style="border-collapse:collapse">
 <tr>
 <td valign="top" width="50%">
 
-**Mahendra Prajapati 's GitHub Stats**
-
-<table>
-<tr><td>☆ <b>Total Stars Earned:</b></td><td>{stars}</td></tr>
-<tr><td>🕐 <b>Total Commits:</b></td><td><b>{total_commits:,}</b></td></tr>
-<tr><td>⑂ <b>Total PRs:</b></td><td>{prs}</td></tr>
-<tr><td>⊙ <b>Total Issues:</b></td><td>{issues}</td></tr>
-<tr><td>⊟ <b>Contributed to (last year):</b></td><td>{contributions}</td></tr>
-</table>
+<img src="https://github-readme-stats.vercel.app/api?username={USERNAME}&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&custom_title=Mahendra%20Prajapati%27s%20GitHub%20Stats&include_all_commits=true" alt="GitHub Stats" />
 
 </td>
 <td valign="top" width="50%" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username={USERNAME}&layout=compact&count_private=true&hide_border=true&langs_count=8" alt="Most Used Languages" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username={USERNAME}&layout=compact&count_private=true&hide_border=true&langs_count=8&theme=tokyonight" alt="Most Used Languages" />
 
 </td>
 </tr>
@@ -187,7 +165,7 @@ def build_stats_block(total_commits, contributions, stars, prs, issues):
 <br/>
 
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user={USERNAME}&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak Stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user={USERNAME}&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&theme=tokyonight_duo" alt="GitHub Streak Stats" />
 </p>
 
 <!-- STATS_END -->"""
@@ -234,7 +212,8 @@ def main():
     prs    = search_count(f"type:pr author:{USERNAME}")
     issues = search_count(f"type:issue author:{USERNAME}")
 
-    block = build_stats_block(total_commits, contributions, stars, prs, issues)
+    # total_commits = sab branches + sab repos ka real count
+    block = build_stats_block(total_commits, total_commits, stars, prs, issues)
     patch_readme(block)
     print(f"✅ Done! Commits: {total_commits:,} | Contributions: {contributions:,}")
 
