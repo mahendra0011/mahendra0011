@@ -124,34 +124,60 @@ def build_stats_block(total_commits, contributions, stars, prs, issues):
     return f"""<!-- STATS_START -->
 <!-- Auto-updated by GitHub Action every day — do not edit between these markers -->
 
-<table align="center" width="100%" border="1" cellpadding="10" cellspacing="0" style="border-collapse:collapse">
+<table align="center" width="100%">
 <tr>
-<td valign="top" width="50%">
+<td valign="top" width="48%">
 
 **Mahendra Prajapati's GitHub Stats**
 
-<table>
-<tr><td>☆ <b>Total Stars Earned:</b></td><td>{stars}</td></tr>
-<tr><td>🕐 <b>Total Commits:</b></td><td><b>{total_commits:,}</b></td></tr>
-<tr><td>⑂ <b>Total PRs:</b></td><td>{prs}</td></tr>
-<tr><td>⊙ <b>Total Issues:</b></td><td>{issues}</td></tr>
-<tr><td>⊟ <b>Contributed to (last year):</b></td><td>1</td></tr>
-</table>
+| | |
+|---|---|
+| ⭐ Total Stars Earned: | {stars} |
+| 🕐 Total Commits (all branches): | **{total_commits:,}** |
+| 🔀 Total PRs: | {prs} |
+| 🐛 Total Issues: | {issues} |
+| 🏢 Contributed to (last year): | 1 |
 
 </td>
-<td valign="top" width="50%" align="center">
+<td valign="top" width="52%">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username={USERNAME}&layout=compact&count_private=true&hide_border=true&langs_count=8" alt="Most Used Languages" />
+**Most Used Languages**
+
+| | |
+|---|---|
+| <img src='https://img.shields.io/badge/-JavaScript-f1e05a?style=flat-square' height='14'> **JavaScript** 90.26% | <img src='https://img.shields.io/badge/-TypeScript-2b7489?style=flat-square' height='14'> **TypeScript** 5.56% |
+| <img src='https://img.shields.io/badge/-CSS-563d7c?style=flat-square' height='14'> **CSS** 3.55% | <img src='https://img.shields.io/badge/-HTML-e34c26?style=flat-square' height='14'> **HTML** 0.44% |
+| <img src='https://img.shields.io/badge/-Python-3572A5?style=flat-square' height='14'> **Python** 0.15% | <img src='https://img.shields.io/badge/-PowerShell-012456?style=flat-square' height='14'> **PowerShell** 0.03% |
 
 </td>
 </tr>
 </table>
 
-<br/>
+<br>
 
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user={USERNAME}&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&custom_contributions={total_commits}" alt="GitHub Streak Stats" />
-</p>
+<table align="center" width="100%">
+<tr>
+<td align="center" width="33%">
+
+### {contributions:,}
+**Total Contributions**
+<sub>Nov 6, 2024 - Present</sub>
+
+</td>
+<td align="center" width="34%">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user={USERNAME}&theme=default&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" width="280"/>
+
+</td>
+<td align="center" width="33%">
+
+### 23
+**Longest Streak**
+<sub>May 18 - Jun 9</sub>
+
+</td>
+</tr>
+</table>
 
 <!-- STATS_END -->"""
 
