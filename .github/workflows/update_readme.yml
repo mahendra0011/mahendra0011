@@ -39,7 +39,7 @@ jobs:
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          git pull --rebase origin main || git pull --rebase origin master
           git add README.md
-          git diff --staged --quiet || git commit -m "chore: auto-update GitHub stats [skip ci]"
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git commit -m "chore: auto-update GitHub stats [skip ci]"
           git push
