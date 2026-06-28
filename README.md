@@ -91,59 +91,81 @@ I specialize in building modern web applications using React.js, Node.js, Expres
 <td valign="top" width="48%">
 
 **Mahendra Prajapati's GitHub Stats**
+<!-- STATS_START -->
 
-| | |
-|---|---|
-| ⭐ Total Stars Earned: | 0 |
-| 🕐 Total Commits (all branches): | **1,500** |
-| 🔀 Total PRs: | 5 |
-| 🐛 Total Issues: | 1 |
-| 🏢 Contributed to (last year): | 1 |
+<h2 align="center">📊 GitHub Analytics</h2>
 
-</td>
-<td valign="top" width="52%">
+<table align="center" width="100%">
+<tr>
 
-**Most Used Languages**
+<td width="50%" valign="top">
 
-| | |
-|---|---|
-| <img src='https://img.shields.io/badge/-JavaScript-f1e05a?style=flat-square' height='14'> **JavaScript** 90.25% | <img src='https://img.shields.io/badge/-TypeScript-2b7489?style=flat-square' height='14'> **TypeScript** 5.57% |
-| <img src='https://img.shields.io/badge/-CSS-563d7c?style=flat-square' height='14'> **CSS** 3.53% | <img src='https://img.shields.io/badge/-HTML-e34c26?style=flat-square' height='14'> **HTML** 0.44% |
-| <img src='https://img.shields.io/badge/-Python-3572A5?style=flat-square' height='14'> **Python** 0.17% | <img src='https://img.shields.io/badge/-PowerShell-012456?style=flat-square' height='14'> **PowerShell** 0.03% |
-| <img src='https://img.shields.io/badge/-Dockerfile-384d54?style=flat-square' height='14'> **Dockerfile** 0.02% | |
+### 📈 Statistics
+
+| Metric | Value |
+|:--|:--:|
+| ⭐ Stars | **0** |
+| 🕒 Commits | **1,500** |
+| 🔀 Pull Requests | **5** |
+| 🐛 Issues | **1** |
+| 🤝 Contributions | **1** |
 
 </td>
+
+<td width="50%" align="center">
+
+<img width="100%"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahendra0011&layout=compact&hide_border=true&theme=transparent"/>
+
+</td>
+
 </tr>
 </table>
 
 <br>
 
+<p align="center">
+<img width="100%"
+src="https://github-readme-streak-stats.herokuapp.com?user=mahendra0011&hide_border=true&theme=transparent"/>
+</p>
+
 <table align="center" width="100%">
 <tr>
+
 <td align="center" width="33%">
 
-### 1,500
+# 1,500
+
 **Total Contributions**
-<sub>Nov 6, 2024 - Present</sub>
+
+<sub>Nov 6, 2024 – Present</sub>
 
 </td>
+
 <td align="center" width="34%">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=mahendra0011&theme=default&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" width="280"/>
+# 🔥 23
+
+**Longest Streak**
+
+<sub>May 18 – Jun 9</sub>
 
 </td>
+
 <td align="center" width="33%">
 
-### 23
-**Longest Streak**
-<sub>May 18 - Jun 9</sub>
+# ⚡ 1
+
+**Current Streak**
+
+<sub>Jun 27</sub>
 
 </td>
+
 </tr>
 </table>
 
 <!-- STATS_END -->
-
 ---
 
 ## 🏆 Highlights
