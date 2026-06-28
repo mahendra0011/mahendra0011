@@ -2,14 +2,13 @@ name: Update README Stats
 
 on:
   schedule:
-    # Runs daily at 12:30 AM IST (7:00 PM UTC)
     - cron: "0 19 * * *"
-  workflow_dispatch:   # allows manual trigger from GitHub UI
+  workflow_dispatch:
   push:
     branches: [main, master]
 
 permissions:
-  contents: write   # needed to push README changes
+  contents: write
 
 jobs:
   update-stats:
@@ -40,6 +39,7 @@ jobs:
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
+          git pull --rebase origin main || git pull --rebase origin master
           git add README.md
           git diff --staged --quiet || git commit -m "chore: auto-update GitHub stats [skip ci]"
           git push
