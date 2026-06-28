@@ -84,7 +84,7 @@ I specialize in building modern web applications using React.js, Node.js, Expres
 ## 📊 GitHub Stats
 
 <!-- STATS_START -->
-<!-- ⚠️ Auto-updated by GitHub Action every day — do not edit between these markers -->
+<!-- Auto-updated by GitHub Action every day -->
 
 <table align="center">
 <tr>
