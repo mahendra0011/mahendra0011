@@ -1,10 +1,10 @@
 """
 count_commits.py — mahendra0011
-Counts EVERY commit — no author filter, checks committer login instead.
+NO author filter — counts ALL commits in repo across ALL branches.
+Deduplicates by SHA.
 """
 
 import os, re, requests
-from datetime import datetime, timezone
 from collections import defaultdict
 
 TOKEN    = os.environ["GH_TOKEN"]
@@ -55,13 +55,13 @@ def all_repos():
 
 def count_commits_in_repo(owner, repo_name):
     """
-    Get ALL branches, fetch ALL commits without author filter,
-    then keep only commits where author.login OR committer.login == USERNAME
-    Deduplicate by SHA.
+    Count ALL unique commit SHAs across ALL branches — NO author filter.
+    Every commit in the repo is counted (deduplicated by SHA).
     """
     try:
         branches = pages(f"https://api.github.com/repos/{owner}/{repo_name}/branches")
-    except:
+    except Exception as e:
+        print(f"    [!] branches error: {e}")
         return 0
 
     shas = set()
@@ -77,27 +77,12 @@ def count_commits_in_repo(owner, repo_name):
                 if not isinstance(data, list) or not data:
                     break
                 for c in data:
-                    # Check author login
-                    a_login = ""
-                    co_login = ""
-                    try:
-                        if c.get("author") and c["author"]:
-                            a_login = c["author"].get("login", "")
-                    except:
-                        pass
-                    try:
-                        if c.get("committer") and c["committer"]:
-                            co_login = c["committer"].get("login", "")
-                    except:
-                        pass
-
-                    if a_login == USERNAME or co_login == USERNAME:
-                        shas.add(c["sha"])
-
+                    shas.add(c["sha"])
                 if len(data) < 100:
                     break
                 page += 1
-            except:
+            except Exception as e:
+                print(f"      branch '{br['name']}' error: {e}")
                 break
     return len(shas)
 
@@ -167,7 +152,7 @@ def patch_readme(new_block):
 
 def main():
     print("=" * 55)
-    print(f"  Counting EVERY commit for @{USERNAME}")
+    print(f"  Counting ALL commits (no author filter)")
     print("=" * 55)
 
     repos = all_repos()
