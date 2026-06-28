@@ -1,7 +1,7 @@
 """
 count_commits.py — mahendra0011
 Counts ALL commits across ALL branches (no author filter).
-Also fetches real contribution count via GraphQL.
+Updates README with github-readme-stats cards (exact screenshot UI).
 """
 
 import os, re, requests
@@ -38,7 +38,6 @@ def pages(url, params=None):
     return out
 
 def get_contributions():
-    """Get real total contributions via GraphQL"""
     query = """
     query($login: String!) {
       user(login: $login) {
@@ -57,8 +56,7 @@ def get_contributions():
             headers={"Authorization": f"Bearer {TOKEN}"},
             timeout=30
         )
-        data = r.json()
-        return data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
+        return r.json()["data"]["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
     except:
         return 0
 
@@ -104,6 +102,12 @@ def count_commits_in_repo(owner, repo_name):
                 break
     return len(shas)
 
+def search_count(q):
+    try:
+        return gh("https://api.github.com/search/issues", {"q": q}).json().get("total_count", 0)
+    except:
+        return 0
+
 def top_langs(repos):
     lb = defaultdict(int)
     for repo in repos:
@@ -113,91 +117,41 @@ def top_langs(repos):
         except:
             pass
     total = sum(lb.values()) or 1
-    return [(l, round(b/total*100, 2))
+    return [(l, round(b / total * 100, 2))
             for l, b in sorted(lb.items(), key=lambda x: -x[1])]
 
-def search_count(q):
-    try:
-        return gh("https://api.github.com/search/issues", {"q": q}).json().get("total_count", 0)
-    except:
-        return 0
-
-def build_stats_block(total_commits, contributions, stars, prs, issues, langs):
-    # Build language rows — 2 columns like screenshot
-    lang_colors = {
-        "JavaScript":"f1e05a","TypeScript":"2b7489","Python":"3572A5",
-        "CSS":"563d7c","HTML":"e34c26","Shell":"89e051","Go":"00ADD8",
-        "Rust":"dea584","Java":"b07219","C++":"f34b7d","C#":"178600",
-        "PowerShell":"012456","Dockerfile":"384d54","Vue":"41b883",
-    }
-    top6 = langs[:6]
-    lang_rows = ""
-    for i in range(0, len(top6), 2):
-        l1 = top6[i]
-        c1 = lang_colors.get(l1[0], "8b949e")
-        row = f"| <img src='https://img.shields.io/badge/-{l1[0].replace(' ','%20').replace('+','%2B')}-{c1}?style=flat-square' height='14'> **{l1[0]}** {l1[1]}% "
-        if i+1 < len(top6):
-            l2 = top6[i+1]
-            c2 = lang_colors.get(l2[0], "8b949e")
-            row += f"| <img src='https://img.shields.io/badge/-{l2[0].replace(' ','%20').replace('+','%2B')}-{c2}?style=flat-square' height='14'> **{l2[0]}** {l2[1]}% |"
-        else:
-            row += "|  |"
-        lang_rows += row + "\n"
-
+def build_stats_block(total_commits, contributions, stars, prs, issues):
     return f"""<!-- STATS_START -->
 <!-- Auto-updated by GitHub Action every day — do not edit between these markers -->
 
-<table align="center" width="100%">
+<table align="center" width="100%" border="1" cellpadding="10" cellspacing="0" style="border-collapse:collapse">
 <tr>
-<td valign="top" width="48%">
+<td valign="top" width="50%">
 
 **Mahendra Prajapati's GitHub Stats**
 
-| | |
-|---|---|
-| ⭐ Total Stars Earned: | {stars} |
-| 🕐 Total Commits (all branches): | **{total_commits:,}** |
-| 🔀 Total PRs: | {prs} |
-| 🐛 Total Issues: | {issues} |
-| 🏢 Contributed to (last year): | 1 |
+<table>
+<tr><td>☆ <b>Total Stars Earned:</b></td><td>{stars}</td></tr>
+<tr><td>🕐 <b>Total Commits:</b></td><td><b>{total_commits:,}</b></td></tr>
+<tr><td>⑂ <b>Total PRs:</b></td><td>{prs}</td></tr>
+<tr><td>⊙ <b>Total Issues:</b></td><td>{issues}</td></tr>
+<tr><td>⊟ <b>Contributed to (last year):</b></td><td>1</td></tr>
+</table>
 
 </td>
-<td valign="top" width="52%">
+<td valign="top" width="50%" align="center">
 
-**Most Used Languages**
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username={USERNAME}&layout=compact&count_private=true&hide_border=true&langs_count=8" alt="Most Used Languages" />
 
-| | |
-|---|---|
-{lang_rows}
 </td>
 </tr>
 </table>
 
-<br>
+<br/>
 
-<table align="center" width="100%">
-<tr>
-<td align="center" width="33%">
-
-### {contributions:,}
-**Total Contributions**
-<sub>Nov 6, 2024 - Present</sub>
-
-</td>
-<td align="center" width="34%">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user={USERNAME}&theme=default&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" width="280"/>
-
-</td>
-<td align="center" width="33%">
-
-### 23
-**Longest Streak**
-<sub>May 18 - Jun 9</sub>
-
-</td>
-</tr>
-</table>
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user={USERNAME}&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&custom_contributions={total_commits}" alt="GitHub Streak Stats" />
+</p>
 
 <!-- STATS_END -->"""
 
@@ -207,7 +161,7 @@ def patch_readme(new_block):
         content = f.read()
     pattern = r"<!-- STATS_START -->.*?<!-- STATS_END -->"
     if not re.search(pattern, content, re.DOTALL):
-        print("ERROR: markers not found!")
+        print("ERROR: markers not found in README.md!")
         return
     updated = re.sub(pattern, new_block.strip(), content, flags=re.DOTALL)
     with open(path, "w", encoding="utf-8") as f:
@@ -234,19 +188,19 @@ def main():
         stars += repo.get("stargazers_count", 0)
 
     print(f"\n{'='*55}")
-    print(f"  TOTAL commits: {total_commits:,}")
+    print(f"  TOTAL commits : {total_commits:,}")
+    print(f"  TOTAL stars   : {stars:,}")
     print(f"{'='*55}\n")
 
     contributions = get_contributions()
-    print(f"  Total Contributions (GraphQL): {contributions:,}")
+    print(f"  Total Contributions: {contributions:,}")
 
     prs    = search_count(f"type:pr author:{USERNAME}")
     issues = search_count(f"type:issue author:{USERNAME}")
-    langs  = top_langs(repos)
 
-    block = build_stats_block(total_commits, contributions, stars, prs, issues, langs)
+    block = build_stats_block(total_commits, contributions, stars, prs, issues)
     patch_readme(block)
-    print(f"✅ Done! {total_commits:,} commits | {contributions:,} contributions")
+    print(f"✅ Done! Commits: {total_commits:,} | Contributions: {contributions:,}")
 
 if __name__ == "__main__":
     main()
