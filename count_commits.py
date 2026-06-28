@@ -38,27 +38,64 @@ def pages(url, params=None):
     return out
 
 def get_contributions():
+    """
+    Fetch ALL contributions across ALL years by looping year by year.
+    Same logic as commit counting — no shortcuts.
+    """
     query = """
-    query($login: String!) {
+    query($login: String!, $from: DateTime!, $to: DateTime!) {
       user(login: $login) {
-        contributionsCollection {
+        contributionsCollection(from: $from, to: $to) {
           contributionCalendar {
             totalContributions
           }
         }
+        createdAt
       }
     }
     """
+    # First get account creation year
     try:
         r = requests.post(
             "https://api.github.com/graphql",
-            json={"query": query, "variables": {"login": USERNAME}},
+            json={"query": """
+                query($login: String!) {
+                  user(login: $login) { createdAt }
+                }
+            """, "variables": {"login": USERNAME}},
             headers={"Authorization": f"Bearer {TOKEN}"},
             timeout=30
         )
-        return r.json()["data"]["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
+        created_at = r.json()["data"]["user"]["createdAt"]
+        join_year = int(created_at[:4])
     except:
-        return 0
+        join_year = 2019
+
+    from datetime import datetime
+    current_year = datetime.now().year
+    total = 0
+
+    print(f"  Fetching contributions from {join_year} to {current_year}...")
+
+    for year in range(join_year, current_year + 1):
+        try:
+            r = requests.post(
+                "https://api.github.com/graphql",
+                json={"query": query, "variables": {
+                    "login": USERNAME,
+                    "from": f"{year}-01-01T00:00:00Z",
+                    "to":   f"{year}-12-31T23:59:59Z"
+                }},
+                headers={"Authorization": f"Bearer {TOKEN}"},
+                timeout=30
+            )
+            count = r.json()["data"]["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
+            print(f"    {year}: {count:,} contributions")
+            total += count
+        except Exception as e:
+            print(f"    {year}: error - {e}")
+
+    return total
 
 def all_repos():
     print("Fetching ALL repos...")
@@ -192,7 +229,7 @@ def main():
     print(f"{'='*55}\n")
 
     contributions = get_contributions()
-    print(f"  Total Contributions: {contributions:,}")
+    print(f"  Total Contributions (all years): {contributions:,}")
 
     prs    = search_count(f"type:pr author:{USERNAME}")
     issues = search_count(f"type:issue author:{USERNAME}")
