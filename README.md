@@ -84,33 +84,35 @@ I specialize in building modern web applications using React.js, Node.js, Expres
 ## 📊 GitHub Stats
 
 <!-- STATS_START -->
-<!-- ⚠️ Auto-updated by GitHub Action every day — do not edit between these markers -->
+<!-- Auto-updated by GitHub Action every day — do not edit between these markers -->
 
-<table align="center">
+<table align="center" width="100%" border="1" cellpadding="10" cellspacing="0" style="border-collapse:collapse">
 <tr>
 <td valign="top" width="50%">
 
-### Mahendra Prajapati's GitHub Stats
+**Mahendra Prajapati 's GitHub Stats**
 
-|  |  |
-|--|--|
-| ⭐ Total Stars Earned | 0 |
-| 📝 Total Commits (all branches + private) | **1,059** |
-| 🔀 Total PRs | 5 |
-| 🐛 Total Issues | 1 |
-| 🏢 Contributed to (last year) | 1 |
+<table>
+<tr><td>☆ <b>Total Stars Earned:</b></td><td>0</td></tr>
+<tr><td>🕐 <b>Total Commits:</b></td><td><b>1,461</b></td></tr>
+<tr><td>⑂ <b>Total PRs:</b></td><td>5</td></tr>
+<tr><td>⊙ <b>Total Issues:</b></td><td>1</td></tr>
+<tr><td>⊟ <b>Contributed to (last year):</b></td><td>1</td></tr>
+</table>
 
 </td>
-<td valign="top" width="50%">
+<td valign="top" width="50%" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahendra0011&layout=compact&count_private=true&theme=default&hide_border=true&langs_count=8" alt="Most Used Languages" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahendra0011&layout=compact&count_private=true&hide_border=true&langs_count=8" alt="Most Used Languages" />
 
 </td>
 </tr>
 </table>
 
+<br/>
+
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mahendra0011&theme=default&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=mahendra0011&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&custom_contributions=1461" alt="GitHub Streak Stats" />
 </p>
 
 <!-- STATS_END -->
