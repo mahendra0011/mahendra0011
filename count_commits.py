@@ -1,10 +1,6 @@
 """
 count_commits.py — mahendra0011
-Counts EVERY SINGLE commit:
-- owner repos + collaborator repos + org repos
-- ALL branches (feature, dev, main, merge wali sab)
-- Private repos bhi
-- Deduplication by SHA (merge commits double count nahi honge)
+Counts EVERY commit — no author filter, checks committer login instead.
 """
 
 import os, re, requests
@@ -42,102 +38,67 @@ def pages(url, params=None):
     return out
 
 def all_repos():
-    print("Fetching ALL repos (owner + collaborator + org)...")
-    
-    # 1. Owner repos
-    owner_repos = pages("https://api.github.com/user/repos", {
-        "affiliation": "owner",
+    print("Fetching ALL repos...")
+    repos = pages("https://api.github.com/user/repos", {
+        "affiliation": "owner,collaborator,organization_member",
         "sort": "updated",
         "visibility": "all"
     })
-    print(f"  Owner repos: {len(owner_repos)}")
-    
-    # 2. Collaborator repos (jahan contribute kiya)
-    collab_repos = pages("https://api.github.com/user/repos", {
-        "affiliation": "collaborator",
-        "sort": "updated",
-        "visibility": "all"
-    })
-    print(f"  Collaborator repos: {len(collab_repos)}")
-    
-    # 3. Org member repos
-    org_repos = pages("https://api.github.com/user/repos", {
-        "affiliation": "organization_member",
-        "sort": "updated",
-        "visibility": "all"
-    })
-    print(f"  Org repos: {len(org_repos)}")
-
-    # Deduplicate by repo id
-    seen = set()
-    all_r = []
-    for r in owner_repos + collab_repos + org_repos:
+    seen, all_r = set(), []
+    for r in repos:
         if r["id"] not in seen:
             seen.add(r["id"])
             all_r.append(r)
-    
     priv = sum(1 for r in all_r if r["private"])
-    print(f"\n  TOTAL unique repos: {len(all_r)} ({priv} private, {len(all_r)-priv} public)")
+    print(f"  {len(all_r)} repos ({priv} private)")
     return all_r
 
 def count_commits_in_repo(owner, repo_name):
     """
-    Count ALL unique commits by USERNAME across ALL branches.
-    Uses SHA deduplication — merge commits not double counted.
-    Also tries without author filter to catch commits with different email.
+    Get ALL branches, fetch ALL commits without author filter,
+    then keep only commits where author.login OR committer.login == USERNAME
+    Deduplicate by SHA.
     """
     try:
         branches = pages(f"https://api.github.com/repos/{owner}/{repo_name}/branches")
-    except Exception as e:
-        print(f"    [!] branches failed: {e}")
+    except:
         return 0
 
     shas = set()
-
     for br in branches:
-        # Try with author filter
-        for author_filter in [USERNAME, None]:
-            page = 1
-            while True:
-                try:
-                    params = {
-                        "sha": br["name"],
-                        "per_page": 100,
-                        "page": page
-                    }
-                    if author_filter:
-                        params["author"] = author_filter
-
-                    r = gh(
-                        f"https://api.github.com/repos/{owner}/{repo_name}/commits",
-                        params
-                    )
-                    data = r.json()
-                    if not isinstance(data, list) or not data:
-                        break
-
-                    if author_filter is None:
-                        # Filter manually — check author login
-                        for c in data:
-                            try:
-                                if c.get("author") and c["author"].get("login") == USERNAME:
-                                    shas.add(c["sha"])
-                            except:
-                                pass
-                    else:
-                        for c in data:
-                            shas.add(c["sha"])
-
-                    if len(data) < 100:
-                        break
-                    page += 1
-                except Exception as e:
+        page = 1
+        while True:
+            try:
+                r = gh(
+                    f"https://api.github.com/repos/{owner}/{repo_name}/commits",
+                    {"sha": br["name"], "per_page": 100, "page": page}
+                )
+                data = r.json()
+                if not isinstance(data, list) or not data:
                     break
+                for c in data:
+                    # Check author login
+                    a_login = ""
+                    co_login = ""
+                    try:
+                        if c.get("author") and c["author"]:
+                            a_login = c["author"].get("login", "")
+                    except:
+                        pass
+                    try:
+                        if c.get("committer") and c["committer"]:
+                            co_login = c["committer"].get("login", "")
+                    except:
+                        pass
 
-            # Only do the unfiltered pass once (for first branch it's enough to check)
-            if author_filter is None:
+                    if a_login == USERNAME or co_login == USERNAME:
+                        shas.add(c["sha"])
+
+                if len(data) < 100:
+                    break
+                page += 1
+            except:
                 break
-
     return len(shas)
 
 def top_langs(repos):
@@ -158,16 +119,9 @@ def search_count(q):
     except:
         return 0
 
-LANG_COLORS = {
-    "JavaScript":"f1e05a","TypeScript":"2b7489","Python":"3572A5",
-    "CSS":"563d7c","HTML":"e34c26","Shell":"89e051","Go":"00ADD8",
-    "Rust":"dea584","Java":"b07219","C++":"f34b7d","C#":"178600",
-    "PowerShell":"012456","Dockerfile":"384d54","Vue":"41b883",
-}
-
 def build_stats_block(total_commits, stars, prs, issues):
     return f"""<!-- STATS_START -->
-<!-- ⚠️ Auto-updated by GitHub Action every day — do not edit between these markers -->
+<!-- Auto-updated by GitHub Action every day -->
 
 <table align="center">
 <tr>
@@ -204,7 +158,7 @@ def patch_readme(new_block):
         content = f.read()
     pattern = r"<!-- STATS_START -->.*?<!-- STATS_END -->"
     if not re.search(pattern, content, re.DOTALL):
-        print("ERROR: markers not found in README.md!")
+        print("ERROR: markers not found!")
         return
     updated = re.sub(pattern, new_block.strip(), content, flags=re.DOTALL)
     with open(path, "w", encoding="utf-8") as f:
@@ -221,31 +175,25 @@ def main():
     stars = 0
 
     for i, repo in enumerate(repos):
-        # Get actual owner of repo (might be org)
         owner = repo["owner"]["login"]
         name  = repo["name"]
         priv  = "private" if repo["private"] else "public"
-        print(f"\n[{i+1}/{len(repos)}] {owner}/{name}  ({priv})")
-
+        print(f"\n[{i+1}/{len(repos)}] {owner}/{name} ({priv})")
         count = count_commits_in_repo(owner, name)
-        print(f"  → {count:,} unique commits")
+        print(f"  → {count:,} commits")
         total_commits += count
         stars += repo.get("stargazers_count", 0)
 
     print(f"\n{'='*55}")
-    print(f"  TOTAL commits (ALL repos · ALL branches): {total_commits:,}")
+    print(f"  TOTAL: {total_commits:,} commits")
     print(f"{'='*55}\n")
 
     prs    = search_count(f"type:pr author:{USERNAME}")
     issues = search_count(f"type:issue author:{USERNAME}")
-    langs  = top_langs(repos)
-
-    print(f"Stars={stars}  PRs={prs}  Issues={issues}")
-    print(f"Top langs: {[l[0] for l in langs[:5]]}")
 
     block = build_stats_block(total_commits, stars, prs, issues)
     patch_readme(block)
-    print(f"\n✅ Done! Total commits in README: {total_commits:,}")
+    print(f"✅ Done! {total_commits:,} commits written to README")
 
 if __name__ == "__main__":
     main()
