@@ -86,30 +86,9 @@ I specialize in building modern web applications using React.js, Node.js, Expres
 <!-- STATS_START -->
 <!-- Auto-updated by GitHub Action every day — do not edit between these markers -->
 
-<table align="center" width="100%" border="1" cellpadding="10" cellspacing="0" style="border-collapse:collapse">
-<tr>
-<td valign="top" width="50%">
-
-**Mahendra Prajapati 's GitHub Stats**
-
-<table>
-<tr><td>☆ <b>Total Stars Earned:</b></td><td>0</td></tr>
-<tr><td>🕐 <b>Total Commits:</b></td><td><b>1,485</b></td></tr>
-<tr><td>⑂ <b>Total PRs:</b></td><td>5</td></tr>
-<tr><td>⊙ <b>Total Issues:</b></td><td>1</td></tr>
-<tr><td>⊟ <b>Contributed to (last year):</b></td><td>1,485</td></tr>
-</table>
-
-</td>
-<td valign="top" width="50%" align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahendra0011&layout=compact&count_private=true&hide_border=true&langs_count=8" alt="Most Used Languages" />
-
-</td>
-</tr>
-</table>
-
-<br/>
+<p align="center">
+  <img src="stats.svg" alt="GitHub Stats" width="900"/>
+</p>
 
 <!-- STATS_END -->
 
