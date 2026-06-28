@@ -160,7 +160,7 @@ def build_stats_block(total_commits, contributions, stars, prs, issues, langs):
     return f"""<!-- STATS_START -->
 <!-- Auto-updated by GitHub Action every day — do not edit between these markers -->
 
-<table align="center" width="100%">
+<table align="center" width="100%" border="0" cellpadding="10" cellspacing="0">
 <tr>
 <td valign="top" width="48%">
 
@@ -187,31 +187,34 @@ def build_stats_block(total_commits, contributions, stars, prs, issues, langs):
 </tr>
 </table>
 
-<br>
+<br/>
 
-<table align="center" width="100%">
+<table align="center" width="100%" border="0" cellpadding="16" cellspacing="0">
 <tr>
-<td align="center" width="33%">
+<td align="center" width="50%" style="border-right:1px solid #e1e4e8">
 
-### {display_contribs:,}
-**Total Contributions**
-<sub>Nov 6, 2024 - Present</sub>
+<h2>{display_contribs:,}</h2>
 
-</td>
-<td align="center" width="34%">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user={USERNAME}&theme=default&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" width="280"/>
+**Total Contributions**<br/>
+<sub>Nov 6, 2024 – Present</sub>
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="50%">
 
-### 23
-**Longest Streak**
-<sub>May 18 - Jun 9</sub>
+<h2>23</h2>
+
+**Longest Streak**<br/>
+<sub>May 18 – Jun 9</sub>
 
 </td>
 </tr>
 </table>
+
+<br/>
+
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user={USERNAME}&theme=default&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+</p>
 
 <!-- STATS_END -->"""
 
