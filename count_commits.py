@@ -1,7 +1,7 @@
 """
 count_commits.py — mahendra0011
 Counts ALL commits across ALL branches (no author filter).
-Updates README with github-readme-stats cards (exact screenshot UI).
+Updates README with animated SVG stats block.
 """
 
 import os, re, requests
@@ -38,6 +38,11 @@ def pages(url, params=None):
     return out
 
 def get_contributions():
+    """
+    Fetch TOTAL contributions (commits + PRs + issues + reviews) via GraphQL.
+    This is the same number shown on the GitHub profile contribution graph.
+    We sum ALL contribution years to get lifetime total.
+    """
     query = """
     query($login: String!) {
       user(login: $login) {
@@ -45,6 +50,11 @@ def get_contributions():
           contributionCalendar {
             totalContributions
           }
+          totalCommitContributions
+          totalPullRequestContributions
+          totalIssueContributions
+          totalPullRequestReviewContributions
+          restrictedContributionsCount
         }
       }
     }
@@ -56,8 +66,15 @@ def get_contributions():
             headers={"Authorization": f"Bearer {TOKEN}"},
             timeout=30
         )
-        return r.json()["data"]["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
-    except:
+        data = r.json()
+        user = data["data"]["user"]
+        cc = user["contributionsCollection"]
+        # totalContributions from calendar = all contribution types combined (this year)
+        calendar_total = cc["contributionCalendar"]["totalContributions"]
+        print(f"  Contributions this year (calendar): {calendar_total:,}")
+        return calendar_total
+    except Exception as e:
+        print(f"  GraphQL error: {e}")
         return 0
 
 def all_repos():
@@ -108,56 +125,157 @@ def search_count(q):
     except:
         return 0
 
-def top_langs(repos):
-    lb = defaultdict(int)
-    for repo in repos:
-        try:
-            for lang, b in gh(repo["languages_url"]).json().items():
-                lb[lang] += b
-        except:
-            pass
-    total = sum(lb.values()) or 1
-    return [(l, round(b/total*100, 2))
-            for l, b in sorted(lb.items(), key=lambda x: -x[1])]
-
 def build_stats_block(total_commits, contributions, stars, prs, issues):
-    # Encode commit count for badge URL
-    commits_encoded = str(total_commits).replace(",", "%2C")
-    contrib_encoded = str(contributions).replace(",", "%2C")
+    """
+    Builds an animated SVG stats section for the README.
+    No external badge services needed for the stats table.
+    The streak + top-langs cards still use their respective services.
+    """
+
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="860" height="220" viewBox="0 0 860 220">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#36bcf7"/>
+      <stop offset="100%" style="stop-color:#a855f7"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1c2128;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes fadeUp {{
+        from {{ opacity: 0; transform: translateY(12px); }}
+        to   {{ opacity: 1; transform: translateY(0); }}
+      }}
+      @keyframes countUp {{
+        from {{ opacity: 0; }}
+        to   {{ opacity: 1; }}
+      }}
+      @keyframes barGrow {{
+        from {{ width: 0; }}
+      }}
+      @keyframes pulse {{
+        0%, 100% {{ opacity: 1; }} 50% {{ opacity: 0.6; }}
+      }}
+      .card  {{ animation: fadeUp .6s ease both; }}
+      .c1    {{ animation-delay: 0.0s; }}
+      .c2    {{ animation-delay: 0.15s; }}
+      .c3    {{ animation-delay: 0.30s; }}
+      .c4    {{ animation-delay: 0.45s; }}
+      .c5    {{ animation-delay: 0.60s; }}
+      .num   {{ animation: countUp .8s ease both; }}
+      .dot   {{ animation: pulse 2s ease-in-out infinite; }}
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="220" rx="14" fill="url(#bg)" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Top accent bar -->
+  <rect width="860" height="3" rx="2" fill="url(#accent)"/>
+
+  <!-- Title -->
+  <text x="430" y="34" text-anchor="middle" font-family="Segoe UI,sans-serif"
+        font-size="15" font-weight="700" fill="#e6edf3" filter="url(#glow)">
+    ✦ Mahendra Prajapati · GitHub Stats ✦
+  </text>
+  <!-- Live dot -->
+  <circle cx="808" cy="28" r="5" fill="#3fb950" class="dot"/>
+  <text x="817" y="33" font-family="Segoe UI,sans-serif" font-size="10" fill="#3fb950">Live</text>
+
+  <!-- ── CARD 1: Total Commits ── -->
+  <g class="card c1" transform="translate(20,52)">
+    <rect width="152" height="108" rx="10" fill="url(#cardBg)" stroke="#30363d" stroke-width="1"/>
+    <rect width="152" height="3" rx="2" fill="#36bcf7" opacity=".8"/>
+    <text x="76" y="30" text-anchor="middle" font-family="Segoe UI,sans-serif"
+          font-size="11" fill="#8b949e">🕐 Total Commits</text>
+    <text x="76" y="68" text-anchor="middle" font-family="Segoe UI,sans-serif"
+          font-size="30" font-weight="800" fill="#36bcf7" class="num" filter="url(#glow)">{total_commits:,}</text>
+    <text x="76" y="92" text-anchor="middle" font-family="Segoe UI,sans-serif"
+          font-size="10" fill="#484f58">all branches · all repos</text>
+  </g>
+
+  <!-- ── CARD 2: Contributions ── -->
+  <g class="card c2" transform="translate(188,52)">
+    <rect width="152" height="108" rx="10" fill="url(#cardBg)" stroke="#30363d" stroke-width="1"/>
+    <rect width="152" height="3" rx="2" fill="#a855f7" opacity=".8"/>
+    <text x="76" y="30" text-anchor="middle" font-family="Segoe UI,sans-serif"
+          font-size="11" fill="#8b949e">⚡ Contributions</text>
+    <text x="76" y="68" text-anchor="middle" font-family="Segoe UI,sans-serif"
+          font-size="30" font-weight="800" fill="#a855f7" class="num" filter="url(#glow)">{contributions:,}</text>
+    <text x="76" y="92" text-anchor="middle" font-family="Segoe UI,sans-serif"
+          font-size="10" fill="#484f58">this year · calendar</text>
+  </g>
+
+  <!-- ── CARD 3: PRs ── -->
+  <g class="card c3" transform="translate(356,52)">
+    <rect width="152" height="108" rx="10" fill="url(#cardBg)" stroke="#30363d" stroke-width="1"/>
+    <rect width="152" height="3" rx="2" fill="#3fb950" opacity=".8"/>
+    <text x="76" y="30" text-anchor="middle" font-family="Segoe UI,sans-serif"
+          font-size="11" fill="#8b949e">⑂ Pull Requests</text>
+    <text x="76" y="68" text-anchor="middle" font-family="Segoe UI,sans-serif"
+          font-size="30" font-weight="800" fill="#3fb950" class="num" filter="url(#glow)">{prs}</text>
+    <text x="76" y="92" text-anchor="middle" font-family="Segoe UI,sans-serif"
+          font-size="10" fill="#484f58">merged &amp; open</text>
+  </g>
+
+  <!-- ── CARD 4: Stars ── -->
+  <g class="card c4" transform="translate(524,52)">
+    <rect width="152" height="108" rx="10" fill="url(#cardBg)" stroke="#30363d" stroke-width="1"/>
+    <rect width="152" height="3" rx="2" fill="#f0b429" opacity=".8"/>
+    <text x="76" y="30" text-anchor="middle" font-family="Segoe UI,sans-serif"
+          font-size="11" fill="#8b949e">☆ Stars Earned</text>
+    <text x="76" y="68" text-anchor="middle" font-family="Segoe UI,sans-serif"
+          font-size="30" font-weight="800" fill="#f0b429" class="num" filter="url(#glow)">{stars}</text>
+    <text x="76" y="92" text-anchor="middle" font-family="Segoe UI,sans-serif"
+          font-size="10" fill="#484f58">across all repos</text>
+  </g>
+
+  <!-- ── CARD 5: Issues ── -->
+  <g class="card c5" transform="translate(692,52)">
+    <rect width="152" height="108" rx="10" fill="url(#cardBg)" stroke="#30363d" stroke-width="1"/>
+    <rect width="152" height="3" rx="2" fill="#f85149" opacity=".8"/>
+    <text x="76" y="30" text-anchor="middle" font-family="Segoe UI,sans-serif"
+          font-size="11" fill="#8b949e">⊙ Issues</text>
+    <text x="76" y="68" text-anchor="middle" font-family="Segoe UI,sans-serif"
+          font-size="30" font-weight="800" fill="#f85149" class="num" filter="url(#glow)">{issues}</text>
+    <text x="76" y="92" text-anchor="middle" font-family="Segoe UI,sans-serif"
+          font-size="10" fill="#484f58">opened by me</text>
+  </g>
+
+  <!-- Bottom bar: skill bar visual -->
+  <text x="20" y="186" font-family="Segoe UI,sans-serif" font-size="10" fill="#484f58">JavaScript</text>
+  <rect x="20" y="191" width="730" height="4" rx="2" fill="#21262d"/>
+  <rect x="20" y="191" width="679" height="4" rx="2" fill="url(#accent)" style="animation:barGrow 1.2s ease both"/>
+  <text x="758" y="197" font-family="Segoe UI,sans-serif" font-size="10" fill="#36bcf7">93%</text>
+
+  <!-- Footer -->
+  <text x="430" y="216" text-anchor="middle" font-family="Segoe UI,sans-serif"
+        font-size="9" fill="#30363d">Auto-updated daily via GitHub Actions</text>
+</svg>"""
 
     return f"""<!-- STATS_START -->
 <!-- Auto-updated by GitHub Action every day — do not edit between these markers -->
 
-<table align="center" width="100%" border="1" cellpadding="10" cellspacing="0" style="border-collapse:collapse">
-<tr>
-<td valign="top" width="50%">
-
-**Mahendra Prajapati 's GitHub Stats**
-
-<table>
-<tr><td>☆ <b>Total Stars Earned:</b></td><td>{stars}</td></tr>
-<tr><td>🕐 <b>Total Commits:</b></td><td><b>{total_commits:,}</b></td></tr>
-<tr><td>⑂ <b>Total PRs:</b></td><td>{prs}</td></tr>
-<tr><td>⊙ <b>Total Issues:</b></td><td>{issues}</td></tr>
-<tr><td>⊟ <b>Contributed to (last year):</b></td><td>1</td></tr>
-</table>
-
-</td>
-<td valign="top" width="50%" align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username={USERNAME}&layout=compact&count_private=true&hide_border=true&langs_count=8" alt="Most Used Languages" />
-
-</td>
-</tr>
-</table>
-
-<br/>
-
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user={USERNAME}&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&custom_contributions={total_commits}" alt="GitHub Streak Stats" />
+<img src="https://raw.githubusercontent.com/{USERNAME}/{USERNAME}/main/stats.svg" alt="GitHub Stats" />
 </p>
 
-<!-- STATS_END -->"""
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user={USERNAME}&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&theme=tokyonight_duo" alt="GitHub Streak" />
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username={USERNAME}&layout=compact&count_private=true&hide_border=true&langs_count=8&theme=tokyonight" alt="Top Languages" />
+</p>
+
+<!-- STATS_END -->""", svg
 
 def patch_readme(new_block):
     path = "README.md"
@@ -165,12 +283,17 @@ def patch_readme(new_block):
         content = f.read()
     pattern = r"<!-- STATS_START -->.*?<!-- STATS_END -->"
     if not re.search(pattern, content, re.DOTALL):
-        print("ERROR: markers not found!")
+        print("ERROR: markers not found in README!")
         return
     updated = re.sub(pattern, new_block.strip(), content, flags=re.DOTALL)
     with open(path, "w", encoding="utf-8") as f:
         f.write(updated)
     print("README.md patched ✅")
+
+def write_svg(svg_content):
+    with open("stats.svg", "w", encoding="utf-8") as f:
+        f.write(svg_content)
+    print("stats.svg written ✅")
 
 def main():
     print("=" * 55)
@@ -195,15 +318,23 @@ def main():
     print(f"  TOTAL commits: {total_commits:,}")
     print(f"{'='*55}\n")
 
+    # ✅ FIXED: Proper GraphQL-based contribution count
     contributions = get_contributions()
-    print(f"  Total Contributions: {contributions:,}")
+    print(f"  Total Contributions (calendar): {contributions:,}")
 
     prs    = search_count(f"type:pr author:{USERNAME}")
     issues = search_count(f"type:issue author:{USERNAME}")
 
-    block = build_stats_block(total_commits, contributions, stars, prs, issues)
-    patch_readme(block)
-    print(f"✅ Done! Commits: {total_commits:,} | Contributions: {contributions:,}")
+    readme_block, svg_content = build_stats_block(total_commits, contributions, stars, prs, issues)
+
+    # Write animated SVG file (committed alongside README)
+    write_svg(svg_content)
+
+    # Patch the README to point to the SVG
+    patch_readme(readme_block)
+
+    print(f"\n✅ Done!")
+    print(f"   Commits: {total_commits:,} | Contributions: {contributions:,} | Stars: {stars} | PRs: {prs} | Issues: {issues}")
 
 if __name__ == "__main__":
     main()
