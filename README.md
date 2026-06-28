@@ -95,7 +95,7 @@ I specialize in building modern web applications using React.js, Node.js, Expres
 | | |
 |---|---|
 | ⭐ Total Stars Earned: | 0 |
-| 🕐 Total Commits (all branches): | **1,540** |
+| 🕐 Total Commits (all branches): | **1,500** |
 | 🔀 Total PRs: | 5 |
 | 🐛 Total Issues: | 1 |
 | 🏢 Contributed to (last year): | 1 |
@@ -107,9 +107,10 @@ I specialize in building modern web applications using React.js, Node.js, Expres
 
 | | |
 |---|---|
-| <img src='https://img.shields.io/badge/-JavaScript-f1e05a?style=flat-square' height='14'> **JavaScript** 90.26% | <img src='https://img.shields.io/badge/-TypeScript-2b7489?style=flat-square' height='14'> **TypeScript** 5.56% |
-| <img src='https://img.shields.io/badge/-CSS-563d7c?style=flat-square' height='14'> **CSS** 3.55% | <img src='https://img.shields.io/badge/-HTML-e34c26?style=flat-square' height='14'> **HTML** 0.44% |
-| <img src='https://img.shields.io/badge/-Python-3572A5?style=flat-square' height='14'> **Python** 0.15% | <img src='https://img.shields.io/badge/-PowerShell-012456?style=flat-square' height='14'> **PowerShell** 0.03% |
+| <img src='https://img.shields.io/badge/-JavaScript-f1e05a?style=flat-square' height='14'> **JavaScript** 90.25% | <img src='https://img.shields.io/badge/-TypeScript-2b7489?style=flat-square' height='14'> **TypeScript** 5.57% |
+| <img src='https://img.shields.io/badge/-CSS-563d7c?style=flat-square' height='14'> **CSS** 3.53% | <img src='https://img.shields.io/badge/-HTML-e34c26?style=flat-square' height='14'> **HTML** 0.44% |
+| <img src='https://img.shields.io/badge/-Python-3572A5?style=flat-square' height='14'> **Python** 0.17% | <img src='https://img.shields.io/badge/-PowerShell-012456?style=flat-square' height='14'> **PowerShell** 0.03% |
+| <img src='https://img.shields.io/badge/-Dockerfile-384d54?style=flat-square' height='14'> **Dockerfile** 0.02% | |
 
 </td>
 </tr>
@@ -121,7 +122,7 @@ I specialize in building modern web applications using React.js, Node.js, Expres
 <tr>
 <td align="center" width="33%">
 
-### 1,119
+### 1,500
 **Total Contributions**
 <sub>Nov 6, 2024 - Present</sub>
 
