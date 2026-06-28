@@ -84,88 +84,37 @@ I specialize in building modern web applications using React.js, Node.js, Expres
 ## 📊 GitHub Stats
 
 <!-- STATS_START -->
-<!-- Auto-updated by GitHub Action every day — do not edit between these markers -->
+<!-- ⚠️ Auto-updated by GitHub Action every day — do not edit between these markers -->
 
-<table align="center" width="100%">
+<table align="center">
 <tr>
-<td valign="top" width="48%">
+<td valign="top" width="50%">
 
-**Mahendra Prajapati's GitHub Stats**
-<!-- STATS_START -->
+### Mahendra Prajapati's GitHub Stats
 
-<h2 align="center">📊 GitHub Analytics</h2>
-
-<table align="center" width="100%">
-<tr>
-
-<td width="50%" valign="top">
-
-### 📈 Statistics
-
-| Metric | Value |
-|:--|:--:|
-| ⭐ Stars | **0** |
-| 🕒 Commits | **1,500** |
-| 🔀 Pull Requests | **5** |
-| 🐛 Issues | **1** |
-| 🤝 Contributions | **1** |
+|  |  |
+|--|--|
+| ⭐ Total Stars Earned | 0 |
+| 📝 Total Commits (all branches + private) | **1,059** |
+| 🔀 Total PRs | 5 |
+| 🐛 Total Issues | 1 |
+| 🏢 Contributed to (last year) | 1 |
 
 </td>
+<td valign="top" width="50%">
 
-<td width="50%" align="center">
-
-<img width="100%"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahendra0011&layout=compact&hide_border=true&theme=transparent"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahendra0011&layout=compact&count_private=true&theme=default&hide_border=true&langs_count=8" alt="Most Used Languages" />
 
 </td>
-
 </tr>
 </table>
-
-<br>
 
 <p align="center">
-<img width="100%"
-src="https://github-readme-streak-stats.herokuapp.com?user=mahendra0011&hide_border=true&theme=transparent"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mahendra0011&theme=default&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
 </p>
 
-<table align="center" width="100%">
-<tr>
-
-<td align="center" width="33%">
-
-# 1,500
-
-**Total Contributions**
-
-<sub>Nov 6, 2024 – Present</sub>
-
-</td>
-
-<td align="center" width="34%">
-
-# 🔥 23
-
-**Longest Streak**
-
-<sub>May 18 – Jun 9</sub>
-
-</td>
-
-<td align="center" width="33%">
-
-# ⚡ 1
-
-**Current Streak**
-
-<sub>Jun 27</sub>
-
-</td>
-
-</tr>
-</table>
-
 <!-- STATS_END -->
+
 ---
 
 ## 🏆 Highlights
