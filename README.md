@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;React+%7C+Node.js+%7C+MongoDB;Docker+%7C+AWS+%7C+Cloud+Enthusiast;Building+Impactful+Digital+Products" />
 </p>
 
-# Hey there 👋, 
+# Hey there 👋
 I'm Mahendra Prajapati
 Full Stack Developer i can build scalable, secure, and high-performance web applications that transform ideas into impactful digital products.
 
