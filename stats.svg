@@ -25,7 +25,7 @@
   <text x="245" y="66"  class="value-blue">0</text>
 
   <text x="28" y="93"  class="label">🕐  Total Commits:</text>
-  <text x="245" y="93"  class="value-bold">2,285</text>
+  <text x="245" y="93"  class="value-bold">2,345</text>
 
   <text x="28" y="120" class="label">⑂  Total PRs:</text>
   <text x="245" y="120" class="value-blue">5</text>
@@ -34,7 +34,7 @@
   <text x="245" y="147" class="value-blue">1</text>
 
   <text x="28" y="174" class="label">⊟  Contributed to (last year):</text>
-  <text x="245" y="174" class="value-blue">2,285</text>
+  <text x="245" y="174" class="value-blue">2,345</text>
 
   <!-- Rank circle -->
   <circle cx="372" cy="112" r="40" fill="none" stroke="#e6edf3" stroke-width="5"/>
@@ -49,37 +49,37 @@
 
   <!-- Bar background -->
   <rect x="468" y="48" width="380" height="10" rx="5" fill="#eaeef2"/>
-  <rect x="468" y="48" width="356" height="10" fill="#f1e05a"/>
-<rect x="824" y="48" width="13" height="10" fill="#3178c6"/>
-<rect x="837" y="48" width="9" height="10" fill="#563d7c"/>
-<rect x="846" y="48" width="1" height="10" fill="#e34c26"/>
-<rect x="847" y="48" width="1" height="10" fill="#3572A5"/>
+  <rect x="468" y="48" width="357" height="10" fill="#f1e05a"/>
+<rect x="825" y="48" width="12" height="10" fill="#3178c6"/>
+<rect x="837" y="48" width="8" height="10" fill="#563d7c"/>
+<rect x="845" y="48" width="1" height="10" fill="#e34c26"/>
+<rect x="846" y="48" width="1" height="10" fill="#3572A5"/>
 
 
   <circle cx="476" cy="76" r="5" fill="#f1e05a"/>
 <text x="486" y="80" class="lang-name">JavaScript</text>
-<text x="580" y="80" class="lang-pct">93.6%</text>
+<text x="580" y="80" class="lang-pct">94.04%</text>
 <circle cx="476" cy="101" r="5" fill="#3178c6"/>
 <text x="486" y="105" class="lang-name">TypeScript</text>
-<text x="580" y="105" class="lang-pct">3.52%</text>
+<text x="580" y="105" class="lang-pct">3.2%</text>
 <circle cx="476" cy="126" r="5" fill="#563d7c"/>
 <text x="486" y="130" class="lang-name">CSS</text>
-<text x="580" y="130" class="lang-pct">2.34%</text>
+<text x="580" y="130" class="lang-pct">2.21%</text>
 <circle cx="476" cy="151" r="5" fill="#e34c26"/>
 <text x="486" y="155" class="lang-name">HTML</text>
-<text x="580" y="155" class="lang-pct">0.34%</text>
+<text x="580" y="155" class="lang-pct">0.35%</text>
 <circle cx="660" cy="76" r="5" fill="#3572A5"/>
 <text x="670" y="80" class="lang-name">Python</text>
-<text x="770" y="80" class="lang-pct">0.17%</text>
+<text x="770" y="80" class="lang-pct">0.15%</text>
 <circle cx="660" cy="101" r="5" fill="#89e051"/>
 <text x="670" y="105" class="lang-name">PowerShell</text>
 <text x="770" y="105" class="lang-pct">0.02%</text>
 <circle cx="660" cy="126" r="5" fill="#384d54"/>
 <text x="670" y="130" class="lang-name">Dockerfile</text>
-<text x="770" y="130" class="lang-pct">0.02%</text>
+<text x="770" y="130" class="lang-pct">0.01%</text>
 <circle cx="660" cy="151" r="5" fill="#ccc"/>
 <text x="670" y="155" class="lang-name">Batchfile</text>
-<text x="770" y="155" class="lang-pct">0.01%</text>
+<text x="770" y="155" class="lang-pct">0.0%</text>
 
 
   <!-- Streak card -->
@@ -88,16 +88,16 @@
   <line x1="597" y1="255" x2="597" y2="400" stroke="#d0d7de" stroke-width="1"/>
 
   <!-- Total Contributions -->
-  <text x="151" y="315" text-anchor="middle" class="st-big">2,285</text>
+  <text x="151" y="315" text-anchor="middle" class="st-big">2,345</text>
   <text x="151" y="343" text-anchor="middle" class="st-label">Total Contributions</text>
   <text x="151" y="362" text-anchor="middle" class="st-date">Nov 7, 2024 - Present</text>
 
   <!-- Current Streak -->
   <circle cx="450" cy="308" r="44" fill="none" stroke="#fb8f44" stroke-width="5"/>
   <text x="450" y="274" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="20" fill="#fb8f44">🔥</text>
-  <text x="450" y="320" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="28" font-weight="700" fill="#fb8f44">0</text>
+  <text x="450" y="320" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="28" font-weight="700" fill="#fb8f44">1</text>
   <text x="450" y="366" text-anchor="middle" class="st-cur">Current Streak</text>
-  <text x="450" y="384" text-anchor="middle" class="st-date">—</text>
+  <text x="450" y="384" text-anchor="middle" class="st-date">Jul 12 - Jul 12</text>
 
   <!-- Longest Streak -->
   <text x="749" y="315" text-anchor="middle" class="st-big">23</text>
